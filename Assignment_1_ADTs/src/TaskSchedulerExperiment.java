@@ -1,102 +1,109 @@
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.*;
 import java.util.concurrent.*;
 
 public class TaskSchedulerExperiment {
 
-    // Priority levels for tasks
+    // We'll define three levels of priority for tasks.
     enum Priority {
         LOW, MEDIUM, HIGH
     }
 
-    // Task class representing a unit of work, with timing metrics and shared lists for data collection
+    // ----------------------------------------------------------------------------------
+    // A Task represents a piece of work. It knows when it was created, started, and finished.
+    // We'll track wait times & turnaround times in two static lists.
+    // ----------------------------------------------------------------------------------
     static class Task {
-        // Shared, synchronized lists for all tasks
-        private static final List<Long> waitTimes =
-            Collections.synchronizedList(new ArrayList<Long>());
-        private static final List<Long> turnaroundTimes =
-            Collections.synchronizedList(new ArrayList<Long>());
 
+        // We store aggregate metrics for all tasks in these lists.
+        private static final List<Long> allWaitTimes =
+                Collections.synchronizedList(new ArrayList<>());
+        private static final List<Long> allTurnaroundTimes =
+                Collections.synchronizedList(new ArrayList<>());
+
+        // Individual fields for each task.
         int id;
         Priority priority;
         long creationTime;
         long startTime;
         long finishTime;
 
-        public Task(int id, Priority priority) {
-            this.id = id;
-            this.priority = priority;
+        public Task(int i, Priority prio) {
+            this.id = i;
+            this.priority = prio;
             this.creationTime = System.currentTimeMillis();
         }
 
-        // Simulate task processing and record timing metrics
+        // Called when a Worker picks up this Task.
+        // It simulates the actual "work" by sleeping 50ms, then calculates wait & turnaround.
         public void process() {
-            this.startTime = System.currentTimeMillis();
-
+            startTime = System.currentTimeMillis();
             try {
-                Thread.sleep(50);  // simulate some work
+                Thread.sleep(50); // Doing "work"
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }
+            finishTime = System.currentTimeMillis();
 
-            this.finishTime = System.currentTimeMillis();
+            // Compute wait and turnaround times for this task.
+            long wait = startTime - creationTime;       // time spent waiting
+            long turnaround = finishTime - creationTime; // total time from creation to finish
 
-            long waitTime = startTime - creationTime;
-            long turnaroundTime = finishTime - creationTime;
+            // Stash them into the shared lists.
+            allWaitTimes.add(wait);
+            allTurnaroundTimes.add(turnaround);
 
-            // Record data in shared lists
-            waitTimes.add(waitTime);
-            turnaroundTimes.add(turnaroundTime);
-
-            // Print a log line
-            System.out.println("Processed Task " + id + " with " + priority + " priority | "
-                    + "Wait Time: " + waitTime + "ms, "
-                    + "Turnaround Time: " + turnaroundTime + "ms, "
-                    + "Processed by: " + Thread.currentThread().getName());
+            // For demonstration, log each processed task to the console:
+            System.out.println("Processed Task " + id + " (" + priority + ") | " +
+                               "Wait: " + wait + "ms, Turnaround: " + turnaround + "ms, " +
+                               "Thread: " + Thread.currentThread().getName());
         }
 
-        // Getters for the static lists so we can compute stats later
-        public static List<Long> getWaitTimes() {
-            return waitTimes;
-        }
-        public static List<Long> getTurnaroundTimes() {
-            return turnaroundTimes;
-        }
+        // Accessors for the static lists (for analysis).
+        public static List<Long> getAllWaitTimes() { return allWaitTimes; }
+        public static List<Long> getAllTurnaroundTimes() { return allTurnaroundTimes; }
     }
 
-    // Scheduler managing three ADT structures.
+    // ----------------------------------------------------------------------------------
+    // TaskScheduler holds three separate ADTs for tasks of different priorities:
+    //   - Stack for HIGH
+    //   - Queue for LOW
+    //   - Deque for MEDIUM
+    // ----------------------------------------------------------------------------------
     static class TaskScheduler {
-        // Low-priority tasks: FIFO queue
-        private Queue<Task> lowPriorityQueue = new ConcurrentLinkedQueue<>();
-        // High-priority tasks: Stack (synchronized by default)
-        private Stack<Task> highPriorityStack = new Stack<>();
-        // Medium-priority tasks: Deque
-        private Deque<Task> mediumPriorityDeque = new ConcurrentLinkedDeque<>();
 
-        // Add a task to the appropriate ADT based on its priority.
-        public void addTask(Task task) {
-            switch (task.priority) {
+        private Queue<Task> lowQ = new ConcurrentLinkedQueue<>();
+        private Deque<Task> mediumQ = new ConcurrentLinkedDeque<>();
+        private Stack<Task> highStack = new Stack<>();
+
+        // Based on the task's priority, store it in the relevant data structure.
+        public void addTask(Task t) {
+            switch (t.priority) {
                 case LOW:
-                    lowPriorityQueue.offer(task);
+                    lowQ.offer(t);
                     break;
                 case MEDIUM:
-                    mediumPriorityDeque.offerLast(task);
+                    mediumQ.offerLast(t);
                     break;
                 case HIGH:
-                    highPriorityStack.push(task);
+                    highStack.push(t);
                     break;
             }
         }
 
-        // Retrieve a task from the appropriate ADT.
-        public Task getTask(Priority priority) {
-            switch (priority) {
+        // Worker threads call getTask with a specific priority to retrieve their next task.
+        public Task getTask(Priority prio) {
+            switch (prio) {
                 case LOW:
-                    return lowPriorityQueue.poll();
+                    return lowQ.poll();
                 case MEDIUM:
-                    return mediumPriorityDeque.pollFirst();
+                    return mediumQ.pollFirst();
                 case HIGH:
-                    if (!highPriorityStack.isEmpty()) {
-                        return highPriorityStack.pop();
+                    if (!highStack.isEmpty()) {
+                        return highStack.pop();
                     }
                     return null;
                 default:
@@ -104,32 +111,34 @@ public class TaskSchedulerExperiment {
             }
         }
 
-        // Check if all ADTs are empty.
+        // If all three data structures are empty, scheduling is done.
         public boolean isEmpty() {
-            return lowPriorityQueue.isEmpty()
-                && mediumPriorityDeque.isEmpty()
-                && highPriorityStack.isEmpty();
+            return lowQ.isEmpty() && mediumQ.isEmpty() && highStack.isEmpty();
         }
     }
 
-    // Worker thread that polls tasks from a specific ADT (based on priority).
+    // ----------------------------------------------------------------------------------
+    // Worker is a Runnable that continuously retrieves tasks from one ADT (based on Priority).
+    // It calls task.process() for each retrieved task.
+    // ----------------------------------------------------------------------------------
     static class Worker implements Runnable {
-        private final TaskScheduler scheduler;
-        private final Priority priority;
 
-        public Worker(TaskScheduler scheduler, Priority priority) {
-            this.scheduler = scheduler;
-            this.priority = priority;
+        private final TaskScheduler scheduler;
+        private final Priority prio;
+
+        public Worker(TaskScheduler sched, Priority p) {
+            this.scheduler = sched;
+            this.prio = p;
         }
 
         @Override
         public void run() {
             while (!scheduler.isEmpty()) {
-                Task task = scheduler.getTask(priority);
-                if (task != null) {
-                    task.process();
+                Task t = scheduler.getTask(prio);
+                if (t != null) {
+                    t.process();
                 } else {
-                    // Pause if no task is available for this priority.
+                    // If no task is currently available for this priority, nap briefly.
                     try {
                         Thread.sleep(10);
                     } catch (InterruptedException e) {
@@ -140,116 +149,163 @@ public class TaskSchedulerExperiment {
         }
     }
 
+    // ----------------------------------------------------------------------------------
+    // MAIN: we create 100 tasks randomly assigned to LOW, MEDIUM, or HIGH,
+    // start three worker threads, then compute stats and append them to a CSV file.
+    // ----------------------------------------------------------------------------------
     public static void main(String[] args) {
-        // Start timer for throughput
-        long overallStart = System.currentTimeMillis();
 
+        long startTimeMs = System.currentTimeMillis(); // We'll measure total runtime to get throughput.
+
+        // Make a new scheduler with three data structures inside.
         TaskScheduler scheduler = new TaskScheduler();
-        Random random = new Random();
 
-        // Generate 100 tasks with random priorities
+        // Create 100 tasks at random priorities.
+        Random rand = new Random();
         for (int i = 1; i <= 100; i++) {
-            Priority priority;
-            int rand = random.nextInt(3); // 0, 1, or 2
-            if (rand == 0) {
-                priority = Priority.LOW;
-            } else if (rand == 1) {
-                priority = Priority.MEDIUM;
-            } else {
-                priority = Priority.HIGH;
-            }
-            Task task = new Task(i, priority);
-            scheduler.addTask(task);
+            int pick = rand.nextInt(3);  // 0, 1, or 2
+            Priority p;
+            if (pick == 0) p = Priority.LOW;
+            else if (pick == 1) p = Priority.MEDIUM;
+            else p = Priority.HIGH;
+
+            Task newTask = new Task(i, p);
+            scheduler.addTask(newTask);
         }
 
-        // Create a fixed thread pool with three workers (one for each priority type)
-        ExecutorService executor = Executors.newFixedThreadPool(3);
-        executor.execute(new Worker(scheduler, Priority.HIGH));
-        executor.execute(new Worker(scheduler, Priority.MEDIUM));
-        executor.execute(new Worker(scheduler, Priority.LOW));
+        // We'll spawn exactly 3 threads, each dedicated to a different priority.
+        ExecutorService pool = Executors.newFixedThreadPool(3);
+        pool.execute(new Worker(scheduler, Priority.HIGH));
+        pool.execute(new Worker(scheduler, Priority.MEDIUM));
+        pool.execute(new Worker(scheduler, Priority.LOW));
 
-        // Shutdown after processing
-        executor.shutdown();
+        // Wait for all tasks to finish or time out in 10s, then shut down the executor.
+        pool.shutdown();
         try {
-            if (!executor.awaitTermination(10, TimeUnit.SECONDS)) {
-                executor.shutdownNow();
+            if (!pool.awaitTermination(10, TimeUnit.SECONDS)) {
+                pool.shutdownNow();
             }
         } catch (InterruptedException e) {
-            executor.shutdownNow();
+            pool.shutdownNow();
         }
 
         System.out.println("All tasks have been processed.");
 
-        // Stop timer for throughput
-        long overallFinish = System.currentTimeMillis();
-        long totalElapsed = overallFinish - overallStart;
+        long finishTimeMs = System.currentTimeMillis();
+        long totalElapsedMs = finishTimeMs - startTimeMs;
 
-        // Compute and print stats
-        computeAndPrintStatistics(totalElapsed);
+        // We'll gather the aggregated metrics and print them out:
+        computeAndPrintStatistics(totalElapsedMs);
     }
 
-    // Helper to compute and print all stats
-    private static void computeAndPrintStatistics(long totalElapsedMillis) {
-        List<Long> waitTimes = Task.getWaitTimes();
-        List<Long> turnaroundTimes = Task.getTurnaroundTimes();
+    // ----------------------------------------------------------------------------------
+    // This method does all the stats calculations (min, max, avg, std dev, throughput),
+    // logs them to the console, and appends them to a CSV file "runs.csv".
+    // ----------------------------------------------------------------------------------
+    private static void computeAndPrintStatistics(long elapsedTimeMs) {
 
-        if (waitTimes.isEmpty()) {
-            System.out.println("No tasks were processed.");
+        List<Long> waitData = Task.getAllWaitTimes();
+        List<Long> turnaroundData = Task.getAllTurnaroundTimes();
+
+        if (waitData.isEmpty()) {
+            System.out.println("No tasks processed. Something's off!");
             return;
         }
 
-        int numberOfTasks = waitTimes.size();
-        double totalSeconds = totalElapsedMillis / 1000.0;
-        double throughput = numberOfTasks / totalSeconds;
+        int totalTasks = waitData.size();
+        double totalSecs = elapsedTimeMs / 1000.0;
+        double tasksPerSec = totalTasks / totalSecs;
 
-        // Wait times
-        long minWait = Collections.min(waitTimes);
-        long maxWait = Collections.max(waitTimes);
-        double avgWait = average(waitTimes);
-        double stdDevWait = standardDeviation(waitTimes, avgWait);
+        // Wait time stats
+        long minW = Collections.min(waitData);
+        long maxW = Collections.max(waitData);
+        double avgW = computeAverage(waitData);
+        double stdW = computeStdDev(waitData, avgW);
 
-        // Turnaround times
-        long minTAT = Collections.min(turnaroundTimes);
-        long maxTAT = Collections.max(turnaroundTimes);
-        double avgTAT = average(turnaroundTimes);
-        double stdDevTAT = standardDeviation(turnaroundTimes, avgTAT);
+        // Turnaround time stats
+        long minT = Collections.min(turnaroundData);
+        long maxT = Collections.max(turnaroundData);
+        double avgT = computeAverage(turnaroundData);
+        double stdT = computeStdDev(turnaroundData, avgT);
 
-        System.out.println("\n========= STATISTICS =========");
-        System.out.println("Total Tasks Processed: " + numberOfTasks);
-        System.out.printf("Total Elapsed Time: %.2f seconds%n", totalSeconds);
-        System.out.printf("Throughput: %.2f tasks/second%n", throughput);
+        System.out.println("\n========== EXPERIMENT RESULTS ==========");
+        System.out.println("Tasks: " + totalTasks);
+        System.out.printf("Total Elapsed: %.2f s\n", totalSecs);
+        System.out.printf("Throughput: %.2f tasks/s\n\n", tasksPerSec);
 
-        System.out.println("\nWait Time (ms):");
-        System.out.println("  Min = " + minWait);
-        System.out.println("  Max = " + maxWait);
-        System.out.printf ("  Avg = %.2f%n", avgWait);
-        System.out.printf ("  Std Dev = %.2f%n", stdDevWait);
+        System.out.println("Wait Time (ms): ");
+        System.out.println("  Min = " + minW);
+        System.out.println("  Max = " + maxW);
+        System.out.printf ("  Avg = %.2f\n", avgW);
+        System.out.printf ("  Std = %.2f\n", stdW);
 
-        System.out.println("\nTurnaround Time (ms):");
-        System.out.println("  Min = " + minTAT);
-        System.out.println("  Max = " + maxTAT);
-        System.out.printf ("  Avg = %.2f%n", avgTAT);
-        System.out.printf ("  Std Dev = %.2f%n", stdDevTAT);
+        System.out.println("\nTurnaround Time (ms): ");
+        System.out.println("  Min = " + minT);
+        System.out.println("  Max = " + maxT);
+        System.out.printf ("  Avg = %.2f\n", avgT);
+        System.out.printf ("  Std = %.2f\n", stdT);
+        System.out.println("========================================\n");
 
-        System.out.println("=============================\n");
+        // Append this data as a new row to "runs.csv".
+        appendCsvRow("runs.csv", System.currentTimeMillis(),
+                     totalSecs, tasksPerSec,
+                     minW, maxW, avgW, stdW,
+                     minT, maxT, avgT, stdT);
     }
 
-    // Compute average
-    private static double average(List<Long> values) {
+    // A quick average calculator.
+    private static double computeAverage(List<Long> vals) {
         long sum = 0;
-        for (long v : values) {
+        for (long v : vals) {
             sum += v;
         }
-        return (double) sum / values.size();
+        return (double) sum / vals.size();
     }
 
-    // Compute standard deviation
-    private static double standardDeviation(List<Long> values, double mean) {
-        double temp = 0;
-        for (long v : values) {
+    // A quick standard deviation calculator.
+    private static double computeStdDev(List<Long> vals, double mean) {
+        double sumOfSquares = 0.0;
+        for (long v : vals) {
             double diff = v - mean;
-            temp += diff * diff;
+            sumOfSquares += diff * diff;
         }
-        return Math.sqrt(temp / values.size());
+        return Math.sqrt(sumOfSquares / vals.size());
+    }
+
+    // ----------------------------------------------------------------------------------
+    // We'll store each run's summarized stats in a single line of CSV in "runs.csv".
+    // If the file doesn't exist, we create it and write a header.
+    // If it does exist, we append just one line for this new run.
+    // ----------------------------------------------------------------------------------
+    private static void appendCsvRow(
+        String fileName, long timestamp,
+        double totalTime, double throughputVal,
+        long minWait, long maxWait, double avgWait, double stdWait,
+        long minTAT, long maxTAT, double avgTAT, double stdTAT
+    ) {
+        boolean fileExists = Files.exists(Paths.get(fileName));
+
+        try (FileWriter fw = new FileWriter(fileName, true)) {
+            if (!fileExists) {
+                fw.write("Timestamp,TotalTime(s),Throughput,MinWait,MaxWait,AvgWait,StdWait,MinTAT,MaxTAT,AvgTAT,StdTAT\n");
+            }
+
+            fw.write(String.format(
+                "%d,%.2f,%.2f,%d,%d,%.2f,%.2f,%d,%d,%.2f,%.2f\n",
+                timestamp,
+                totalTime,
+                throughputVal,
+                minWait,
+                maxWait,
+                avgWait,
+                stdWait,
+                minTAT,
+                maxTAT,
+                avgTAT,
+                stdTAT
+            ));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
