@@ -1,5 +1,3 @@
-
-
 import java.util.*;
 import java.util.concurrent.*;
 
@@ -105,30 +103,6 @@ public class TaskSchedulerExperiment {
     // Worker thread that polls tasks from a specific ADT (based on priority).
     static class Worker implements Runnable {
         //add code here
-        private TaskScheduler scheduler;
-        private Priority priority;
-
-        public Worker(TaskScheduler scheduler, Priority priority) {
-            this.scheduler = scheduler;
-            this.priority = priority;
-        }
-
-        @Override
-        public void run() {
-            while (!scheduler.isEmpty()) {
-                Task task = scheduler.getTask(priority);
-                if (task != null) {
-                    task.process();
-                } else {
-                    // Pause briefly if no task is available for this priority.
-                    try {
-                        Thread.sleep(10);
-                    } catch (InterruptedException e) {
-                        Thread.currentThread().interrupt();
-                    }
-                }
-            }
-        }
     }
 
     public static void main(String[] args) {
