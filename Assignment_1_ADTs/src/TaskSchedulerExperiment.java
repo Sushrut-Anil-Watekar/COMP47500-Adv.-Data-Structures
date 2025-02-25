@@ -53,13 +53,47 @@ public class TaskSchedulerExperiment {
 
     // Scheduler managing three ADT structures.
     static class TaskScheduler {
-    	// add code here
-        
+    	// Low-priority tasks: FIFO queue
+        private Queue<Task> lowPriorityQueue = new ConcurrentLinkedQueue<>();
+        // High-priority tasks: Stack (synchronized by default)
+        private Stack<Task> highPriorityStack = new Stack<>();
+        // Medium-priority tasks: Deque
+        private Deque<Task> mediumPriorityDeque = new ConcurrentLinkedDeque<>();
+
+        // Add a task to the appropriate ADT based on its priority.
+        public void addTask(Task task) {
+            switch (task.priority) {
+                case LOW:
+                    lowPriorityQueue.offer(task);
+                    break;
+                case MEDIUM:
+                    // Insert at the rear of the deque.
+                    mediumPriorityDeque.offer(task);
+                    break;
+                case HIGH:
+                    // Push onto the stack.
+                    highPriorityStack.push(task);
+                    break;
+            }
         }
 
         // Retrieve a task from the appropriate ADT.
         public Task getTask(Priority priority) {
-            //add code here
+            switch (priority) {
+                case LOW:
+                    return lowPriorityQueue.poll();
+                case MEDIUM:
+                    // Retrieve from the front of the deque.
+                    return mediumPriorityDeque.pollFirst();
+                case HIGH:
+                    // Pop from the stack.
+                    if (!highPriorityStack.isEmpty()) {
+                        return highPriorityStack.pop();
+                    }
+                    return null;
+                default:
+                    return null;
+            }
         }
 
         // Check if all ADTs are empty.
