@@ -4,7 +4,7 @@
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\watek\Desktop\TaskSchedulerProject\TaskSchedulerProject\target\test-classes;C:\Users\watek\Desktop\TaskSchedulerProject\TaskSchedulerProject\target\classes;C:\Users\watek\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\watek\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\watek\Desktop\Assignment_1_ADTs\COMP47500-Adv.-Data-Structures-Assignment-1\Assignment_1_ADTs\TaskSchedulerProject\target\test-classes;C:\Users\watek\Desktop\Assignment_1_ADTs\COMP47500-Adv.-Data-Structures-Assignment-1\Assignment_1_ADTs\TaskSchedulerProject\target\classes;C:\Users\watek\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\watek\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IE"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\watek\AppData\Local\Temp\surefire9836147255381607682\surefirebooter-20250226131340728_3.jar C:\Users\watek\AppData\Local\Temp\surefire9836147255381607682 2025-02-26T13-13-40_562-jvmRun1 surefire-20250226131340728_1tmp surefire_0-20250226131340728_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\watek\AppData\Local\Temp\surefire16936219032480597659\surefirebooter-20250226132429884_3.jar C:\Users\watek\AppData\Local\Temp\surefire16936219032480597659 2025-02-26T13-24-29_756-jvmRun1 surefire-20250226132429884_1tmp surefire_0-20250226132429884_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\watek\Desktop\TaskSchedulerProject\TaskSchedulerProject\target\test-classes;C:\Users\watek\Desktop\TaskSchedulerProject\TaskSchedulerProject\target\classes;C:\Users\watek\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\watek\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\watek\Desktop\Assignment_1_ADTs\COMP47500-Adv.-Data-Structures-Assignment-1\Assignment_1_ADTs\TaskSchedulerProject\target\test-classes;C:\Users\watek\Desktop\Assignment_1_ADTs\COMP47500-Adv.-Data-Structures-Assignment-1\Assignment_1_ADTs\TaskSchedulerProject\target\classes;C:\Users\watek\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\watek\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\watek"/>
     <property name="user.language" value="en"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2024-07-16"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\watek\Desktop\TaskSchedulerProject\TaskSchedulerProject"/>
+    <property name="basedir" value="C:\Users\watek\Desktop\Assignment_1_ADTs\COMP47500-Adv.-Data-Structures-Assignment-1\Assignment_1_ADTs\TaskSchedulerProject"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\watek\AppData\Local\Temp\surefire9836147255381607682\surefirebooter-20250226131340728_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\watek\AppData\Local\Temp\surefire16936219032480597659\surefirebooter-20250226132429884_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -44,7 +44,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\watek\AppData\Local\Temp\"/>
     <property name="java.version" value="17.0.12"/>
-    <property name="user.dir" value="C:\Users\watek\Desktop\TaskSchedulerProject\TaskSchedulerProject"/>
+    <property name="user.dir" value="C:\Users\watek\Desktop\Assignment_1_ADTs\COMP47500-Adv.-Data-Structures-Assignment-1\Assignment_1_ADTs\TaskSchedulerProject"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.taskscheduler.SystemTest" time="11.283" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.taskscheduler.SystemTest" time="11.055" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\watek\Desktop\TaskSchedulerProject\TaskSchedulerProject\target\test-classes;C:\Users\watek\Desktop\TaskSchedulerProject\TaskSchedulerProject\target\classes;C:\Users\watek\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\watek\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\watek\Desktop\Assignment_1_ADTs\COMP47500-Adv.-Data-Structures-Assignment-1\Assignment_1_ADTs\TaskSchedulerProject\target\test-classes;C:\Users\watek\Desktop\Assignment_1_ADTs\COMP47500-Adv.-Data-Structures-Assignment-1\Assignment_1_ADTs\TaskSchedulerProject\target\classes;C:\Users\watek\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\watek\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IE"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\watek\AppData\Local\Temp\surefire9836147255381607682\surefirebooter-20250226131340728_3.jar C:\Users\watek\AppData\Local\Temp\surefire9836147255381607682 2025-02-26T13-13-40_562-jvmRun1 surefire-20250226131340728_1tmp surefire_0-20250226131340728_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\watek\AppData\Local\Temp\surefire16936219032480597659\surefirebooter-20250226132429884_3.jar C:\Users\watek\AppData\Local\Temp\surefire16936219032480597659 2025-02-26T13-24-29_756-jvmRun1 surefire-20250226132429884_1tmp surefire_0-20250226132429884_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\watek\Desktop\TaskSchedulerProject\TaskSchedulerProject\target\test-classes;C:\Users\watek\Desktop\TaskSchedulerProject\TaskSchedulerProject\target\classes;C:\Users\watek\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\watek\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\watek\Desktop\Assignment_1_ADTs\COMP47500-Adv.-Data-Structures-Assignment-1\Assignment_1_ADTs\TaskSchedulerProject\target\test-classes;C:\Users\watek\Desktop\Assignment_1_ADTs\COMP47500-Adv.-Data-Structures-Assignment-1\Assignment_1_ADTs\TaskSchedulerProject\target\classes;C:\Users\watek\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\watek\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\watek"/>
     <property name="user.language" value="en"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2024-07-16"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\watek\Desktop\TaskSchedulerProject\TaskSchedulerProject"/>
+    <property name="basedir" value="C:\Users\watek\Desktop\Assignment_1_ADTs\COMP47500-Adv.-Data-Structures-Assignment-1\Assignment_1_ADTs\TaskSchedulerProject"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\watek\AppData\Local\Temp\surefire9836147255381607682\surefirebooter-20250226131340728_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\watek\AppData\Local\Temp\surefire16936219032480597659\surefirebooter-20250226132429884_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -44,7 +44,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\watek\AppData\Local\Temp\"/>
     <property name="java.version" value="17.0.12"/>
-    <property name="user.dir" value="C:\Users\watek\Desktop\TaskSchedulerProject\TaskSchedulerProject"/>
+    <property name="user.dir" value="C:\Users\watek\Desktop\Assignment_1_ADTs\COMP47500-Adv.-Data-Structures-Assignment-1\Assignment_1_ADTs\TaskSchedulerProject"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -56,620 +56,620 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testFullExperimentRun" classname="com.taskscheduler.SystemTest" time="11.242">
+  <testcase name="testFullExperimentRun" classname="com.taskscheduler.SystemTest" time="11.015">
     <system-out><![CDATA[
 =============================
 Starting run 1 of 5
 =============================
-Processed Task 5 (MEDIUM) | Wait: 0ms, Turnaround: 56ms, Thread: pool-2-thread-2
-Processed Task 3 (LOW) | Wait: 0ms, Turnaround: 56ms, Thread: pool-2-thread-3
-Processed Task 92 (HIGH) | Wait: 0ms, Turnaround: 56ms, Thread: pool-2-thread-1
-Processed Task 7 (MEDIUM) | Wait: 56ms, Turnaround: 116ms, Thread: pool-2-thread-2
-Processed Task 88 (HIGH) | Wait: 56ms, Turnaround: 116ms, Thread: pool-2-thread-1
-Processed Task 10 (LOW) | Wait: 56ms, Turnaround: 116ms, Thread: pool-2-thread-3
-Processed Task 12 (LOW) | Wait: 116ms, Turnaround: 178ms, Thread: pool-2-thread-3
-Processed Task 87 (HIGH) | Wait: 116ms, Turnaround: 178ms, Thread: pool-2-thread-1
-Processed Task 8 (MEDIUM) | Wait: 116ms, Turnaround: 178ms, Thread: pool-2-thread-2
-Processed Task 16 (LOW) | Wait: 178ms, Turnaround: 229ms, Thread: pool-2-thread-3
-Processed Task 14 (MEDIUM) | Wait: 178ms, Turnaround: 229ms, Thread: pool-2-thread-2
-Processed Task 86 (HIGH) | Wait: 178ms, Turnaround: 229ms, Thread: pool-2-thread-1
-Processed Task 85 (HIGH) | Wait: 229ms, Turnaround: 286ms, Thread: pool-2-thread-1
-Processed Task 18 (LOW) | Wait: 229ms, Turnaround: 286ms, Thread: pool-2-thread-3
-Processed Task 17 (MEDIUM) | Wait: 229ms, Turnaround: 286ms, Thread: pool-2-thread-2
-Processed Task 78 (HIGH) | Wait: 286ms, Turnaround: 336ms, Thread: pool-2-thread-1
-Processed Task 19 (MEDIUM) | Wait: 286ms, Turnaround: 336ms, Thread: pool-2-thread-2
-Processed Task 32 (LOW) | Wait: 286ms, Turnaround: 336ms, Thread: pool-2-thread-3
-Processed Task 20 (MEDIUM) | Wait: 336ms, Turnaround: 388ms, Thread: pool-2-thread-2
-Processed Task 74 (HIGH) | Wait: 336ms, Turnaround: 388ms, Thread: pool-2-thread-1
-Processed Task 48 (LOW) | Wait: 336ms, Turnaround: 388ms, Thread: pool-2-thread-3
-Processed Task 51 (LOW) | Wait: 388ms, Turnaround: 440ms, Thread: pool-2-thread-3
-Processed Task 21 (MEDIUM) | Wait: 388ms, Turnaround: 440ms, Thread: pool-2-thread-2
-Processed Task 67 (HIGH) | Wait: 388ms, Turnaround: 440ms, Thread: pool-2-thread-1
-Processed Task 64 (HIGH) | Wait: 440ms, Turnaround: 491ms, Thread: pool-2-thread-1
-Processed Task 25 (MEDIUM) | Wait: 440ms, Turnaround: 491ms, Thread: pool-2-thread-2
-Processed Task 53 (LOW) | Wait: 440ms, Turnaround: 491ms, Thread: pool-2-thread-3
-Processed Task 63 (HIGH) | Wait: 491ms, Turnaround: 546ms, Thread: pool-2-thread-1
-Processed Task 30 (MEDIUM) | Wait: 491ms, Turnaround: 546ms, Thread: pool-2-thread-2
-Processed Task 56 (LOW) | Wait: 491ms, Turnaround: 546ms, Thread: pool-2-thread-3
-Processed Task 59 (LOW) | Wait: 546ms, Turnaround: 605ms, Thread: pool-2-thread-3
-Processed Task 62 (HIGH) | Wait: 546ms, Turnaround: 605ms, Thread: pool-2-thread-1
-Processed Task 31 (MEDIUM) | Wait: 546ms, Turnaround: 605ms, Thread: pool-2-thread-2
-Processed Task 61 (LOW) | Wait: 605ms, Turnaround: 658ms, Thread: pool-2-thread-3
-Processed Task 34 (MEDIUM) | Wait: 605ms, Turnaround: 658ms, Thread: pool-2-thread-2
-Processed Task 57 (HIGH) | Wait: 605ms, Turnaround: 658ms, Thread: pool-2-thread-1
-Processed Task 55 (HIGH) | Wait: 658ms, Turnaround: 710ms, Thread: pool-2-thread-1
-Processed Task 36 (MEDIUM) | Wait: 658ms, Turnaround: 710ms, Thread: pool-2-thread-2
-Processed Task 65 (LOW) | Wait: 658ms, Turnaround: 710ms, Thread: pool-2-thread-3
-Processed Task 66 (LOW) | Wait: 710ms, Turnaround: 760ms, Thread: pool-2-thread-3
-Processed Task 37 (MEDIUM) | Wait: 710ms, Turnaround: 760ms, Thread: pool-2-thread-2
-Processed Task 47 (HIGH) | Wait: 710ms, Turnaround: 760ms, Thread: pool-2-thread-1
-Processed Task 68 (LOW) | Wait: 760ms, Turnaround: 817ms, Thread: pool-2-thread-3
-Processed Task 38 (MEDIUM) | Wait: 760ms, Turnaround: 817ms, Thread: pool-2-thread-2
-Processed Task 43 (HIGH) | Wait: 760ms, Turnaround: 817ms, Thread: pool-2-thread-1
-Processed Task 70 (LOW) | Wait: 817ms, Turnaround: 873ms, Thread: pool-2-thread-3
-Processed Task 41 (MEDIUM) | Wait: 817ms, Turnaround: 873ms, Thread: pool-2-thread-2
-Processed Task 40 (HIGH) | Wait: 817ms, Turnaround: 873ms, Thread: pool-2-thread-1
-Processed Task 71 (LOW) | Wait: 873ms, Turnaround: 925ms, Thread: pool-2-thread-3
-Processed Task 42 (MEDIUM) | Wait: 873ms, Turnaround: 925ms, Thread: pool-2-thread-2
-Processed Task 39 (HIGH) | Wait: 873ms, Turnaround: 925ms, Thread: pool-2-thread-1
-Processed Task 73 (LOW) | Wait: 925ms, Turnaround: 976ms, Thread: pool-2-thread-3
-Processed Task 35 (HIGH) | Wait: 925ms, Turnaround: 977ms, Thread: pool-2-thread-1
-Processed Task 44 (MEDIUM) | Wait: 925ms, Turnaround: 977ms, Thread: pool-2-thread-2
-Processed Task 77 (LOW) | Wait: 976ms, Turnaround: 1042ms, Thread: pool-2-thread-3
-Processed Task 33 (HIGH) | Wait: 977ms, Turnaround: 1042ms, Thread: pool-2-thread-1
-Processed Task 45 (MEDIUM) | Wait: 977ms, Turnaround: 1042ms, Thread: pool-2-thread-2
-Processed Task 46 (MEDIUM) | Wait: 1042ms, Turnaround: 1093ms, Thread: pool-2-thread-2
-Processed Task 83 (LOW) | Wait: 1042ms, Turnaround: 1093ms, Thread: pool-2-thread-3
-Processed Task 29 (HIGH) | Wait: 1042ms, Turnaround: 1093ms, Thread: pool-2-thread-1
-Processed Task 28 (HIGH) | Wait: 1093ms, Turnaround: 1150ms, Thread: pool-2-thread-1
-Processed Task 49 (MEDIUM) | Wait: 1093ms, Turnaround: 1150ms, Thread: pool-2-thread-2
-Processed Task 89 (LOW) | Wait: 1093ms, Turnaround: 1150ms, Thread: pool-2-thread-3
-Processed Task 27 (HIGH) | Wait: 1150ms, Turnaround: 1202ms, Thread: pool-2-thread-1
-Processed Task 93 (LOW) | Wait: 1150ms, Turnaround: 1210ms, Thread: pool-2-thread-3
-Processed Task 50 (MEDIUM) | Wait: 1150ms, Turnaround: 1210ms, Thread: pool-2-thread-2
-Processed Task 26 (HIGH) | Wait: 1202ms, Turnaround: 1261ms, Thread: pool-2-thread-1
-Processed Task 52 (MEDIUM) | Wait: 1210ms, Turnaround: 1261ms, Thread: pool-2-thread-2
-Processed Task 96 (LOW) | Wait: 1210ms, Turnaround: 1261ms, Thread: pool-2-thread-3
-Processed Task 54 (MEDIUM) | Wait: 1261ms, Turnaround: 1314ms, Thread: pool-2-thread-2
-Processed Task 24 (HIGH) | Wait: 1261ms, Turnaround: 1315ms, Thread: pool-2-thread-1
-Processed Task 100 (LOW) | Wait: 1261ms, Turnaround: 1315ms, Thread: pool-2-thread-3
-Processed Task 58 (MEDIUM) | Wait: 1314ms, Turnaround: 1368ms, Thread: pool-2-thread-2
-Processed Task 23 (HIGH) | Wait: 1315ms, Turnaround: 1368ms, Thread: pool-2-thread-1
-Processed Task 60 (MEDIUM) | Wait: 1368ms, Turnaround: 1425ms, Thread: pool-2-thread-2
-Processed Task 22 (HIGH) | Wait: 1368ms, Turnaround: 1425ms, Thread: pool-2-thread-1
-Processed Task 15 (HIGH) | Wait: 1425ms, Turnaround: 1476ms, Thread: pool-2-thread-1
-Processed Task 69 (MEDIUM) | Wait: 1425ms, Turnaround: 1476ms, Thread: pool-2-thread-2
-Processed Task 13 (HIGH) | Wait: 1476ms, Turnaround: 1530ms, Thread: pool-2-thread-1
-Processed Task 72 (MEDIUM) | Wait: 1476ms, Turnaround: 1530ms, Thread: pool-2-thread-2
-Processed Task 11 (HIGH) | Wait: 1530ms, Turnaround: 1584ms, Thread: pool-2-thread-1
-Processed Task 75 (MEDIUM) | Wait: 1530ms, Turnaround: 1584ms, Thread: pool-2-thread-2
-Processed Task 76 (MEDIUM) | Wait: 1584ms, Turnaround: 1640ms, Thread: pool-2-thread-2
-Processed Task 9 (HIGH) | Wait: 1584ms, Turnaround: 1640ms, Thread: pool-2-thread-1
-Processed Task 79 (MEDIUM) | Wait: 1640ms, Turnaround: 1703ms, Thread: pool-2-thread-2
-Processed Task 6 (HIGH) | Wait: 1640ms, Turnaround: 1703ms, Thread: pool-2-thread-1
-Processed Task 4 (HIGH) | Wait: 1703ms, Turnaround: 1756ms, Thread: pool-2-thread-1
-Processed Task 80 (MEDIUM) | Wait: 1703ms, Turnaround: 1756ms, Thread: pool-2-thread-2
-Processed Task 81 (MEDIUM) | Wait: 1757ms, Turnaround: 1813ms, Thread: pool-2-thread-2
-Processed Task 2 (HIGH) | Wait: 1756ms, Turnaround: 1813ms, Thread: pool-2-thread-1
-Processed Task 82 (MEDIUM) | Wait: 1813ms, Turnaround: 1867ms, Thread: pool-2-thread-2
-Processed Task 1 (HIGH) | Wait: 1813ms, Turnaround: 1867ms, Thread: pool-2-thread-1
-Processed Task 84 (MEDIUM) | Wait: 1867ms, Turnaround: 1921ms, Thread: pool-2-thread-2
-Processed Task 90 (MEDIUM) | Wait: 1921ms, Turnaround: 1985ms, Thread: pool-2-thread-2
-Processed Task 91 (MEDIUM) | Wait: 1985ms, Turnaround: 2050ms, Thread: pool-2-thread-2
-Processed Task 94 (MEDIUM) | Wait: 2050ms, Turnaround: 2108ms, Thread: pool-2-thread-2
-Processed Task 95 (MEDIUM) | Wait: 2108ms, Turnaround: 2159ms, Thread: pool-2-thread-2
-Processed Task 97 (MEDIUM) | Wait: 2159ms, Turnaround: 2214ms, Thread: pool-2-thread-2
-Processed Task 98 (MEDIUM) | Wait: 2214ms, Turnaround: 2269ms, Thread: pool-2-thread-2
-Processed Task 99 (MEDIUM) | Wait: 2269ms, Turnaround: 2335ms, Thread: pool-2-thread-2
+Processed Task 3 (LOW) | Wait: 0ms, Turnaround: 54ms, Thread: pool-2-thread-3
+Processed Task 2 (MEDIUM) | Wait: 0ms, Turnaround: 54ms, Thread: pool-2-thread-2
+Processed Task 98 (HIGH) | Wait: 0ms, Turnaround: 54ms, Thread: pool-2-thread-1
+Processed Task 5 (LOW) | Wait: 54ms, Turnaround: 116ms, Thread: pool-2-thread-3
+Processed Task 97 (HIGH) | Wait: 54ms, Turnaround: 116ms, Thread: pool-2-thread-1
+Processed Task 6 (MEDIUM) | Wait: 54ms, Turnaround: 116ms, Thread: pool-2-thread-2
+Processed Task 95 (HIGH) | Wait: 116ms, Turnaround: 168ms, Thread: pool-2-thread-1
+Processed Task 11 (MEDIUM) | Wait: 116ms, Turnaround: 168ms, Thread: pool-2-thread-2
+Processed Task 7 (LOW) | Wait: 116ms, Turnaround: 168ms, Thread: pool-2-thread-3
+Processed Task 88 (HIGH) | Wait: 168ms, Turnaround: 218ms, Thread: pool-2-thread-1
+Processed Task 12 (MEDIUM) | Wait: 168ms, Turnaround: 219ms, Thread: pool-2-thread-2
+Processed Task 9 (LOW) | Wait: 168ms, Turnaround: 219ms, Thread: pool-2-thread-3
+Processed Task 16 (MEDIUM) | Wait: 219ms, Turnaround: 274ms, Thread: pool-2-thread-2
+Processed Task 82 (HIGH) | Wait: 218ms, Turnaround: 274ms, Thread: pool-2-thread-1
+Processed Task 15 (LOW) | Wait: 219ms, Turnaround: 274ms, Thread: pool-2-thread-3
+Processed Task 18 (LOW) | Wait: 274ms, Turnaround: 325ms, Thread: pool-2-thread-3
+Processed Task 81 (HIGH) | Wait: 274ms, Turnaround: 325ms, Thread: pool-2-thread-1
+Processed Task 19 (MEDIUM) | Wait: 274ms, Turnaround: 325ms, Thread: pool-2-thread-2
+Processed Task 20 (MEDIUM) | Wait: 325ms, Turnaround: 382ms, Thread: pool-2-thread-2
+Processed Task 80 (HIGH) | Wait: 325ms, Turnaround: 382ms, Thread: pool-2-thread-1
+Processed Task 21 (LOW) | Wait: 325ms, Turnaround: 382ms, Thread: pool-2-thread-3
+Processed Task 23 (MEDIUM) | Wait: 382ms, Turnaround: 433ms, Thread: pool-2-thread-2
+Processed Task 69 (HIGH) | Wait: 382ms, Turnaround: 433ms, Thread: pool-2-thread-1
+Processed Task 22 (LOW) | Wait: 382ms, Turnaround: 433ms, Thread: pool-2-thread-3
+Processed Task 24 (LOW) | Wait: 433ms, Turnaround: 489ms, Thread: pool-2-thread-3
+Processed Task 31 (MEDIUM) | Wait: 433ms, Turnaround: 489ms, Thread: pool-2-thread-2
+Processed Task 67 (HIGH) | Wait: 433ms, Turnaround: 489ms, Thread: pool-2-thread-1
+Processed Task 66 (HIGH) | Wait: 489ms, Turnaround: 540ms, Thread: pool-2-thread-1
+Processed Task 25 (LOW) | Wait: 489ms, Turnaround: 540ms, Thread: pool-2-thread-3
+Processed Task 33 (MEDIUM) | Wait: 489ms, Turnaround: 540ms, Thread: pool-2-thread-2
+Processed Task 38 (MEDIUM) | Wait: 540ms, Turnaround: 590ms, Thread: pool-2-thread-2
+Processed Task 27 (LOW) | Wait: 540ms, Turnaround: 590ms, Thread: pool-2-thread-3
+Processed Task 64 (HIGH) | Wait: 540ms, Turnaround: 590ms, Thread: pool-2-thread-1
+Processed Task 39 (MEDIUM) | Wait: 590ms, Turnaround: 646ms, Thread: pool-2-thread-2
+Processed Task 53 (HIGH) | Wait: 590ms, Turnaround: 646ms, Thread: pool-2-thread-1
+Processed Task 29 (LOW) | Wait: 590ms, Turnaround: 646ms, Thread: pool-2-thread-3
+Processed Task 52 (HIGH) | Wait: 646ms, Turnaround: 699ms, Thread: pool-2-thread-1
+Processed Task 30 (LOW) | Wait: 646ms, Turnaround: 701ms, Thread: pool-2-thread-3
+Processed Task 49 (MEDIUM) | Wait: 646ms, Turnaround: 701ms, Thread: pool-2-thread-2
+Processed Task 35 (LOW) | Wait: 701ms, Turnaround: 757ms, Thread: pool-2-thread-3
+Processed Task 51 (HIGH) | Wait: 699ms, Turnaround: 757ms, Thread: pool-2-thread-1
+Processed Task 54 (MEDIUM) | Wait: 701ms, Turnaround: 757ms, Thread: pool-2-thread-2
+Processed Task 50 (HIGH) | Wait: 757ms, Turnaround: 813ms, Thread: pool-2-thread-1
+Processed Task 55 (MEDIUM) | Wait: 757ms, Turnaround: 813ms, Thread: pool-2-thread-2
+Processed Task 37 (LOW) | Wait: 757ms, Turnaround: 813ms, Thread: pool-2-thread-3
+Processed Task 56 (MEDIUM) | Wait: 813ms, Turnaround: 864ms, Thread: pool-2-thread-2
+Processed Task 42 (LOW) | Wait: 813ms, Turnaround: 864ms, Thread: pool-2-thread-3
+Processed Task 46 (HIGH) | Wait: 813ms, Turnaround: 864ms, Thread: pool-2-thread-1
+Processed Task 43 (LOW) | Wait: 864ms, Turnaround: 921ms, Thread: pool-2-thread-3
+Processed Task 59 (MEDIUM) | Wait: 864ms, Turnaround: 921ms, Thread: pool-2-thread-2
+Processed Task 45 (HIGH) | Wait: 864ms, Turnaround: 921ms, Thread: pool-2-thread-1
+Processed Task 61 (MEDIUM) | Wait: 921ms, Turnaround: 972ms, Thread: pool-2-thread-2
+Processed Task 47 (LOW) | Wait: 921ms, Turnaround: 972ms, Thread: pool-2-thread-3
+Processed Task 44 (HIGH) | Wait: 921ms, Turnaround: 972ms, Thread: pool-2-thread-1
+Processed Task 41 (HIGH) | Wait: 972ms, Turnaround: 1029ms, Thread: pool-2-thread-1
+Processed Task 63 (MEDIUM) | Wait: 972ms, Turnaround: 1029ms, Thread: pool-2-thread-2
+Processed Task 48 (LOW) | Wait: 972ms, Turnaround: 1029ms, Thread: pool-2-thread-3
+Processed Task 68 (MEDIUM) | Wait: 1029ms, Turnaround: 1080ms, Thread: pool-2-thread-2
+Processed Task 40 (HIGH) | Wait: 1029ms, Turnaround: 1080ms, Thread: pool-2-thread-1
+Processed Task 57 (LOW) | Wait: 1029ms, Turnaround: 1080ms, Thread: pool-2-thread-3
+Processed Task 36 (HIGH) | Wait: 1080ms, Turnaround: 1137ms, Thread: pool-2-thread-1
+Processed Task 70 (MEDIUM) | Wait: 1080ms, Turnaround: 1137ms, Thread: pool-2-thread-2
+Processed Task 58 (LOW) | Wait: 1080ms, Turnaround: 1137ms, Thread: pool-2-thread-3
+Processed Task 34 (HIGH) | Wait: 1137ms, Turnaround: 1187ms, Thread: pool-2-thread-1
+Processed Task 73 (MEDIUM) | Wait: 1137ms, Turnaround: 1187ms, Thread: pool-2-thread-2
+Processed Task 60 (LOW) | Wait: 1137ms, Turnaround: 1187ms, Thread: pool-2-thread-3
+Processed Task 62 (LOW) | Wait: 1187ms, Turnaround: 1244ms, Thread: pool-2-thread-3
+Processed Task 32 (HIGH) | Wait: 1187ms, Turnaround: 1244ms, Thread: pool-2-thread-1
+Processed Task 74 (MEDIUM) | Wait: 1187ms, Turnaround: 1244ms, Thread: pool-2-thread-2
+Processed Task 75 (MEDIUM) | Wait: 1244ms, Turnaround: 1295ms, Thread: pool-2-thread-2
+Processed Task 65 (LOW) | Wait: 1244ms, Turnaround: 1295ms, Thread: pool-2-thread-3
+Processed Task 28 (HIGH) | Wait: 1244ms, Turnaround: 1295ms, Thread: pool-2-thread-1
+Processed Task 26 (HIGH) | Wait: 1295ms, Turnaround: 1352ms, Thread: pool-2-thread-1
+Processed Task 71 (LOW) | Wait: 1295ms, Turnaround: 1352ms, Thread: pool-2-thread-3
+Processed Task 76 (MEDIUM) | Wait: 1295ms, Turnaround: 1352ms, Thread: pool-2-thread-2
+Processed Task 72 (LOW) | Wait: 1352ms, Turnaround: 1403ms, Thread: pool-2-thread-3
+Processed Task 17 (HIGH) | Wait: 1352ms, Turnaround: 1403ms, Thread: pool-2-thread-1
+Processed Task 78 (MEDIUM) | Wait: 1352ms, Turnaround: 1403ms, Thread: pool-2-thread-2
+Processed Task 79 (MEDIUM) | Wait: 1403ms, Turnaround: 1461ms, Thread: pool-2-thread-2
+Processed Task 14 (HIGH) | Wait: 1403ms, Turnaround: 1461ms, Thread: pool-2-thread-1
+Processed Task 77 (LOW) | Wait: 1403ms, Turnaround: 1461ms, Thread: pool-2-thread-3
+Processed Task 13 (HIGH) | Wait: 1461ms, Turnaround: 1511ms, Thread: pool-2-thread-1
+Processed Task 83 (MEDIUM) | Wait: 1461ms, Turnaround: 1511ms, Thread: pool-2-thread-2
+Processed Task 85 (LOW) | Wait: 1461ms, Turnaround: 1511ms, Thread: pool-2-thread-3
+Processed Task 87 (LOW) | Wait: 1511ms, Turnaround: 1577ms, Thread: pool-2-thread-3
+Processed Task 10 (HIGH) | Wait: 1511ms, Turnaround: 1577ms, Thread: pool-2-thread-1
+Processed Task 84 (MEDIUM) | Wait: 1511ms, Turnaround: 1577ms, Thread: pool-2-thread-2
+Processed Task 90 (LOW) | Wait: 1577ms, Turnaround: 1628ms, Thread: pool-2-thread-3
+Processed Task 8 (HIGH) | Wait: 1577ms, Turnaround: 1628ms, Thread: pool-2-thread-1
+Processed Task 86 (MEDIUM) | Wait: 1577ms, Turnaround: 1628ms, Thread: pool-2-thread-2
+Processed Task 89 (MEDIUM) | Wait: 1628ms, Turnaround: 1686ms, Thread: pool-2-thread-2
+Processed Task 4 (HIGH) | Wait: 1628ms, Turnaround: 1686ms, Thread: pool-2-thread-1
+Processed Task 91 (LOW) | Wait: 1628ms, Turnaround: 1686ms, Thread: pool-2-thread-3
+Processed Task 1 (HIGH) | Wait: 1686ms, Turnaround: 1736ms, Thread: pool-2-thread-1
+Processed Task 92 (LOW) | Wait: 1686ms, Turnaround: 1736ms, Thread: pool-2-thread-3
+Processed Task 99 (MEDIUM) | Wait: 1686ms, Turnaround: 1736ms, Thread: pool-2-thread-2
+Processed Task 100 (MEDIUM) | Wait: 1736ms, Turnaround: 1794ms, Thread: pool-2-thread-2
+Processed Task 93 (LOW) | Wait: 1736ms, Turnaround: 1794ms, Thread: pool-2-thread-3
+Processed Task 94 (LOW) | Wait: 1794ms, Turnaround: 1844ms, Thread: pool-2-thread-3
+Processed Task 96 (LOW) | Wait: 1844ms, Turnaround: 1900ms, Thread: pool-2-thread-3
 
 ----- RESULTS FOR THIS RUN -----
 Tasks processed: 100
-Total elapsed: 2.34 s
-Throughput: 42.83 tasks/s
+Total elapsed: 1.90 s
+Throughput: 52.60 tasks/s
 
 Wait Time (ms):
   Min = 0
-  Max = 2269
-  Avg = 932.25
-  StdDev = 597.11
+  Max = 1844
+  Avg = 876.69
+  StdDev = 522.72
 
 Turnaround Time (ms):
-  Min = 56
-  Max = 2335
-  Avg = 987.41
-  StdDev = 597.73
+  Min = 54
+  Max = 1900
+  Avg = 930.99
+  StdDev = 522.97
 ------------------------------
 
 
 =============================
 Starting run 2 of 5
 =============================
-Processed Task 96 (HIGH) | Wait: 0ms, Turnaround: 55ms, Thread: pool-3-thread-1
-Processed Task 4 (MEDIUM) | Wait: 0ms, Turnaround: 57ms, Thread: pool-3-thread-2
-Processed Task 2 (LOW) | Wait: 0ms, Turnaround: 57ms, Thread: pool-3-thread-3
-Processed Task 95 (HIGH) | Wait: 55ms, Turnaround: 107ms, Thread: pool-3-thread-1
-Processed Task 5 (MEDIUM) | Wait: 57ms, Turnaround: 114ms, Thread: pool-3-thread-2
-Processed Task 3 (LOW) | Wait: 57ms, Turnaround: 114ms, Thread: pool-3-thread-3
-Processed Task 94 (HIGH) | Wait: 107ms, Turnaround: 157ms, Thread: pool-3-thread-1
-Processed Task 13 (MEDIUM) | Wait: 114ms, Turnaround: 170ms, Thread: pool-3-thread-2
-Processed Task 6 (LOW) | Wait: 114ms, Turnaround: 170ms, Thread: pool-3-thread-3
-Processed Task 92 (HIGH) | Wait: 157ms, Turnaround: 208ms, Thread: pool-3-thread-1
-Processed Task 16 (MEDIUM) | Wait: 170ms, Turnaround: 224ms, Thread: pool-3-thread-2
-Processed Task 7 (LOW) | Wait: 170ms, Turnaround: 224ms, Thread: pool-3-thread-3
-Processed Task 91 (HIGH) | Wait: 208ms, Turnaround: 258ms, Thread: pool-3-thread-1
-Processed Task 9 (LOW) | Wait: 224ms, Turnaround: 285ms, Thread: pool-3-thread-3
-Processed Task 26 (MEDIUM) | Wait: 224ms, Turnaround: 285ms, Thread: pool-3-thread-2
-Processed Task 90 (HIGH) | Wait: 258ms, Turnaround: 309ms, Thread: pool-3-thread-1
-Processed Task 11 (LOW) | Wait: 285ms, Turnaround: 341ms, Thread: pool-3-thread-3
-Processed Task 28 (MEDIUM) | Wait: 285ms, Turnaround: 341ms, Thread: pool-3-thread-2
-Processed Task 86 (HIGH) | Wait: 309ms, Turnaround: 360ms, Thread: pool-3-thread-1
-Processed Task 30 (MEDIUM) | Wait: 341ms, Turnaround: 392ms, Thread: pool-3-thread-2
-Processed Task 14 (LOW) | Wait: 341ms, Turnaround: 392ms, Thread: pool-3-thread-3
-Processed Task 82 (HIGH) | Wait: 360ms, Turnaround: 415ms, Thread: pool-3-thread-1
-Processed Task 37 (MEDIUM) | Wait: 393ms, Turnaround: 448ms, Thread: pool-3-thread-2
-Processed Task 15 (LOW) | Wait: 393ms, Turnaround: 448ms, Thread: pool-3-thread-3
-Processed Task 80 (HIGH) | Wait: 415ms, Turnaround: 466ms, Thread: pool-3-thread-1
-Processed Task 44 (MEDIUM) | Wait: 448ms, Turnaround: 499ms, Thread: pool-3-thread-2
-Processed Task 17 (LOW) | Wait: 448ms, Turnaround: 499ms, Thread: pool-3-thread-3
-Processed Task 76 (HIGH) | Wait: 466ms, Turnaround: 524ms, Thread: pool-3-thread-1
-Processed Task 19 (LOW) | Wait: 499ms, Turnaround: 557ms, Thread: pool-3-thread-3
-Processed Task 47 (MEDIUM) | Wait: 499ms, Turnaround: 557ms, Thread: pool-3-thread-2
-Processed Task 69 (HIGH) | Wait: 524ms, Turnaround: 574ms, Thread: pool-3-thread-1
-Processed Task 54 (MEDIUM) | Wait: 557ms, Turnaround: 614ms, Thread: pool-3-thread-2
-Processed Task 22 (LOW) | Wait: 557ms, Turnaround: 615ms, Thread: pool-3-thread-3
-Processed Task 67 (HIGH) | Wait: 574ms, Turnaround: 628ms, Thread: pool-3-thread-1
-Processed Task 23 (LOW) | Wait: 615ms, Turnaround: 671ms, Thread: pool-3-thread-3
-Processed Task 57 (MEDIUM) | Wait: 615ms, Turnaround: 671ms, Thread: pool-3-thread-2
-Processed Task 63 (HIGH) | Wait: 639ms, Turnaround: 691ms, Thread: pool-3-thread-1
-Processed Task 58 (MEDIUM) | Wait: 671ms, Turnaround: 727ms, Thread: pool-3-thread-2
-Processed Task 24 (LOW) | Wait: 671ms, Turnaround: 727ms, Thread: pool-3-thread-3
-Processed Task 60 (HIGH) | Wait: 691ms, Turnaround: 754ms, Thread: pool-3-thread-1
-Processed Task 27 (LOW) | Wait: 727ms, Turnaround: 777ms, Thread: pool-3-thread-3
-Processed Task 59 (MEDIUM) | Wait: 727ms, Turnaround: 777ms, Thread: pool-3-thread-2
-Processed Task 55 (HIGH) | Wait: 754ms, Turnaround: 809ms, Thread: pool-3-thread-1
-Processed Task 32 (LOW) | Wait: 777ms, Turnaround: 830ms, Thread: pool-3-thread-3
-Processed Task 65 (MEDIUM) | Wait: 777ms, Turnaround: 837ms, Thread: pool-3-thread-2
-Processed Task 51 (HIGH) | Wait: 809ms, Turnaround: 861ms, Thread: pool-3-thread-1
-Processed Task 33 (LOW) | Wait: 830ms, Turnaround: 894ms, Thread: pool-3-thread-3
-Processed Task 66 (MEDIUM) | Wait: 837ms, Turnaround: 894ms, Thread: pool-3-thread-2
-Processed Task 50 (HIGH) | Wait: 861ms, Turnaround: 912ms, Thread: pool-3-thread-1
-Processed Task 34 (LOW) | Wait: 894ms, Turnaround: 945ms, Thread: pool-3-thread-3
-Processed Task 68 (MEDIUM) | Wait: 894ms, Turnaround: 945ms, Thread: pool-3-thread-2
-Processed Task 46 (HIGH) | Wait: 912ms, Turnaround: 969ms, Thread: pool-3-thread-1
-Processed Task 72 (MEDIUM) | Wait: 945ms, Turnaround: 1002ms, Thread: pool-3-thread-2
-Processed Task 38 (LOW) | Wait: 945ms, Turnaround: 1002ms, Thread: pool-3-thread-3
-Processed Task 43 (HIGH) | Wait: 969ms, Turnaround: 1019ms, Thread: pool-3-thread-1
-Processed Task 42 (LOW) | Wait: 1002ms, Turnaround: 1075ms, Thread: pool-3-thread-3
-Processed Task 41 (HIGH) | Wait: 1019ms, Turnaround: 1075ms, Thread: pool-3-thread-1
-Processed Task 73 (MEDIUM) | Wait: 1002ms, Turnaround: 1075ms, Thread: pool-3-thread-2
-Processed Task 74 (MEDIUM) | Wait: 1075ms, Turnaround: 1130ms, Thread: pool-3-thread-2
-Processed Task 40 (HIGH) | Wait: 1075ms, Turnaround: 1130ms, Thread: pool-3-thread-1
-Processed Task 45 (LOW) | Wait: 1075ms, Turnaround: 1130ms, Thread: pool-3-thread-3
-Processed Task 39 (HIGH) | Wait: 1130ms, Turnaround: 1187ms, Thread: pool-3-thread-1
-Processed Task 79 (MEDIUM) | Wait: 1130ms, Turnaround: 1187ms, Thread: pool-3-thread-2
-Processed Task 48 (LOW) | Wait: 1130ms, Turnaround: 1187ms, Thread: pool-3-thread-3
-Processed Task 36 (HIGH) | Wait: 1187ms, Turnaround: 1239ms, Thread: pool-3-thread-1
-Processed Task 83 (MEDIUM) | Wait: 1187ms, Turnaround: 1239ms, Thread: pool-3-thread-2
-Processed Task 49 (LOW) | Wait: 1187ms, Turnaround: 1239ms, Thread: pool-3-thread-3
-Processed Task 93 (MEDIUM) | Wait: 1239ms, Turnaround: 1298ms, Thread: pool-3-thread-2
-Processed Task 52 (LOW) | Wait: 1239ms, Turnaround: 1298ms, Thread: pool-3-thread-3
-Processed Task 35 (HIGH) | Wait: 1239ms, Turnaround: 1298ms, Thread: pool-3-thread-1
-Processed Task 53 (LOW) | Wait: 1298ms, Turnaround: 1349ms, Thread: pool-3-thread-3
-Processed Task 99 (MEDIUM) | Wait: 1298ms, Turnaround: 1349ms, Thread: pool-3-thread-2
-Processed Task 31 (HIGH) | Wait: 1298ms, Turnaround: 1349ms, Thread: pool-3-thread-1
-Processed Task 29 (HIGH) | Wait: 1349ms, Turnaround: 1406ms, Thread: pool-3-thread-1
-Processed Task 100 (MEDIUM) | Wait: 1349ms, Turnaround: 1406ms, Thread: pool-3-thread-2
-Processed Task 56 (LOW) | Wait: 1349ms, Turnaround: 1406ms, Thread: pool-3-thread-3
-Processed Task 61 (LOW) | Wait: 1406ms, Turnaround: 1462ms, Thread: pool-3-thread-3
-Processed Task 25 (HIGH) | Wait: 1406ms, Turnaround: 1462ms, Thread: pool-3-thread-1
-Processed Task 21 (HIGH) | Wait: 1462ms, Turnaround: 1513ms, Thread: pool-3-thread-1
-Processed Task 62 (LOW) | Wait: 1462ms, Turnaround: 1513ms, Thread: pool-3-thread-3
-Processed Task 64 (LOW) | Wait: 1513ms, Turnaround: 1564ms, Thread: pool-3-thread-3
-Processed Task 20 (HIGH) | Wait: 1513ms, Turnaround: 1564ms, Thread: pool-3-thread-1
-Processed Task 70 (LOW) | Wait: 1564ms, Turnaround: 1628ms, Thread: pool-3-thread-3
-Processed Task 18 (HIGH) | Wait: 1564ms, Turnaround: 1628ms, Thread: pool-3-thread-1
-Processed Task 71 (LOW) | Wait: 1628ms, Turnaround: 1680ms, Thread: pool-3-thread-3
-Processed Task 12 (HIGH) | Wait: 1629ms, Turnaround: 1680ms, Thread: pool-3-thread-1
-Processed Task 10 (HIGH) | Wait: 1680ms, Turnaround: 1737ms, Thread: pool-3-thread-1
-Processed Task 75 (LOW) | Wait: 1680ms, Turnaround: 1737ms, Thread: pool-3-thread-3
-Processed Task 8 (HIGH) | Wait: 1737ms, Turnaround: 1788ms, Thread: pool-3-thread-1
-Processed Task 77 (LOW) | Wait: 1737ms, Turnaround: 1788ms, Thread: pool-3-thread-3
-Processed Task 1 (HIGH) | Wait: 1788ms, Turnaround: 1845ms, Thread: pool-3-thread-1
-Processed Task 78 (LOW) | Wait: 1788ms, Turnaround: 1845ms, Thread: pool-3-thread-3
-Processed Task 81 (LOW) | Wait: 1845ms, Turnaround: 1896ms, Thread: pool-3-thread-3
-Processed Task 84 (LOW) | Wait: 1896ms, Turnaround: 1953ms, Thread: pool-3-thread-3
-Processed Task 85 (LOW) | Wait: 1953ms, Turnaround: 2008ms, Thread: pool-3-thread-3
-Processed Task 87 (LOW) | Wait: 2008ms, Turnaround: 2059ms, Thread: pool-3-thread-3
-Processed Task 88 (LOW) | Wait: 2059ms, Turnaround: 2110ms, Thread: pool-3-thread-3
-Processed Task 89 (LOW) | Wait: 2110ms, Turnaround: 2171ms, Thread: pool-3-thread-3
-Processed Task 97 (LOW) | Wait: 2171ms, Turnaround: 2221ms, Thread: pool-3-thread-3
-Processed Task 98 (LOW) | Wait: 2221ms, Turnaround: 2278ms, Thread: pool-3-thread-3
+Processed Task 1 (LOW) | Wait: 0ms, Turnaround: 56ms, Thread: pool-3-thread-3
+Processed Task 3 (MEDIUM) | Wait: 0ms, Turnaround: 56ms, Thread: pool-3-thread-2
+Processed Task 94 (HIGH) | Wait: 0ms, Turnaround: 56ms, Thread: pool-3-thread-1
+Processed Task 92 (HIGH) | Wait: 56ms, Turnaround: 107ms, Thread: pool-3-thread-1
+Processed Task 4 (MEDIUM) | Wait: 56ms, Turnaround: 107ms, Thread: pool-3-thread-2
+Processed Task 7 (LOW) | Wait: 56ms, Turnaround: 107ms, Thread: pool-3-thread-3
+Processed Task 5 (MEDIUM) | Wait: 107ms, Turnaround: 158ms, Thread: pool-3-thread-2
+Processed Task 90 (HIGH) | Wait: 107ms, Turnaround: 159ms, Thread: pool-3-thread-1
+Processed Task 12 (LOW) | Wait: 107ms, Turnaround: 159ms, Thread: pool-3-thread-3
+Processed Task 15 (LOW) | Wait: 159ms, Turnaround: 214ms, Thread: pool-3-thread-3
+Processed Task 86 (HIGH) | Wait: 159ms, Turnaround: 214ms, Thread: pool-3-thread-1
+Processed Task 6 (MEDIUM) | Wait: 158ms, Turnaround: 214ms, Thread: pool-3-thread-2
+Processed Task 11 (MEDIUM) | Wait: 214ms, Turnaround: 264ms, Thread: pool-3-thread-2
+Processed Task 19 (LOW) | Wait: 214ms, Turnaround: 264ms, Thread: pool-3-thread-3
+Processed Task 85 (HIGH) | Wait: 214ms, Turnaround: 264ms, Thread: pool-3-thread-1
+Processed Task 84 (HIGH) | Wait: 264ms, Turnaround: 320ms, Thread: pool-3-thread-1
+Processed Task 22 (LOW) | Wait: 264ms, Turnaround: 320ms, Thread: pool-3-thread-3
+Processed Task 13 (MEDIUM) | Wait: 264ms, Turnaround: 320ms, Thread: pool-3-thread-2
+Processed Task 75 (HIGH) | Wait: 320ms, Turnaround: 371ms, Thread: pool-3-thread-1
+Processed Task 26 (LOW) | Wait: 320ms, Turnaround: 371ms, Thread: pool-3-thread-3
+Processed Task 14 (MEDIUM) | Wait: 320ms, Turnaround: 377ms, Thread: pool-3-thread-2
+Processed Task 73 (HIGH) | Wait: 371ms, Turnaround: 427ms, Thread: pool-3-thread-1
+Processed Task 28 (LOW) | Wait: 371ms, Turnaround: 427ms, Thread: pool-3-thread-3
+Processed Task 16 (MEDIUM) | Wait: 377ms, Turnaround: 427ms, Thread: pool-3-thread-2
+Processed Task 42 (LOW) | Wait: 427ms, Turnaround: 481ms, Thread: pool-3-thread-3
+Processed Task 17 (MEDIUM) | Wait: 427ms, Turnaround: 481ms, Thread: pool-3-thread-2
+Processed Task 67 (HIGH) | Wait: 427ms, Turnaround: 481ms, Thread: pool-3-thread-1
+Processed Task 23 (MEDIUM) | Wait: 481ms, Turnaround: 533ms, Thread: pool-3-thread-2
+Processed Task 58 (HIGH) | Wait: 481ms, Turnaround: 533ms, Thread: pool-3-thread-1
+Processed Task 43 (LOW) | Wait: 481ms, Turnaround: 533ms, Thread: pool-3-thread-3
+Processed Task 55 (HIGH) | Wait: 533ms, Turnaround: 583ms, Thread: pool-3-thread-1
+Processed Task 24 (MEDIUM) | Wait: 533ms, Turnaround: 583ms, Thread: pool-3-thread-2
+Processed Task 44 (LOW) | Wait: 533ms, Turnaround: 583ms, Thread: pool-3-thread-3
+Processed Task 33 (MEDIUM) | Wait: 583ms, Turnaround: 637ms, Thread: pool-3-thread-2
+Processed Task 48 (HIGH) | Wait: 583ms, Turnaround: 637ms, Thread: pool-3-thread-1
+Processed Task 45 (LOW) | Wait: 583ms, Turnaround: 637ms, Thread: pool-3-thread-3
+Processed Task 35 (MEDIUM) | Wait: 637ms, Turnaround: 694ms, Thread: pool-3-thread-2
+Processed Task 47 (LOW) | Wait: 637ms, Turnaround: 694ms, Thread: pool-3-thread-3
+Processed Task 46 (HIGH) | Wait: 637ms, Turnaround: 694ms, Thread: pool-3-thread-1
+Processed Task 40 (HIGH) | Wait: 694ms, Turnaround: 749ms, Thread: pool-3-thread-1
+Processed Task 37 (MEDIUM) | Wait: 694ms, Turnaround: 749ms, Thread: pool-3-thread-2
+Processed Task 49 (LOW) | Wait: 694ms, Turnaround: 749ms, Thread: pool-3-thread-3
+Processed Task 38 (MEDIUM) | Wait: 749ms, Turnaround: 805ms, Thread: pool-3-thread-2
+Processed Task 50 (LOW) | Wait: 749ms, Turnaround: 805ms, Thread: pool-3-thread-3
+Processed Task 36 (HIGH) | Wait: 749ms, Turnaround: 805ms, Thread: pool-3-thread-1
+Processed Task 39 (MEDIUM) | Wait: 805ms, Turnaround: 865ms, Thread: pool-3-thread-2
+Processed Task 34 (HIGH) | Wait: 805ms, Turnaround: 865ms, Thread: pool-3-thread-1
+Processed Task 51 (LOW) | Wait: 805ms, Turnaround: 865ms, Thread: pool-3-thread-3
+Processed Task 53 (LOW) | Wait: 865ms, Turnaround: 921ms, Thread: pool-3-thread-3
+Processed Task 41 (MEDIUM) | Wait: 865ms, Turnaround: 921ms, Thread: pool-3-thread-2
+Processed Task 32 (HIGH) | Wait: 865ms, Turnaround: 921ms, Thread: pool-3-thread-1
+Processed Task 52 (MEDIUM) | Wait: 921ms, Turnaround: 973ms, Thread: pool-3-thread-2
+Processed Task 31 (HIGH) | Wait: 921ms, Turnaround: 973ms, Thread: pool-3-thread-1
+Processed Task 57 (LOW) | Wait: 921ms, Turnaround: 973ms, Thread: pool-3-thread-3
+Processed Task 30 (HIGH) | Wait: 973ms, Turnaround: 1024ms, Thread: pool-3-thread-1
+Processed Task 54 (MEDIUM) | Wait: 973ms, Turnaround: 1025ms, Thread: pool-3-thread-2
+Processed Task 60 (LOW) | Wait: 973ms, Turnaround: 1025ms, Thread: pool-3-thread-3
+Processed Task 29 (HIGH) | Wait: 1024ms, Turnaround: 1079ms, Thread: pool-3-thread-1
+Processed Task 61 (LOW) | Wait: 1025ms, Turnaround: 1079ms, Thread: pool-3-thread-3
+Processed Task 56 (MEDIUM) | Wait: 1025ms, Turnaround: 1079ms, Thread: pool-3-thread-2
+Processed Task 27 (HIGH) | Wait: 1079ms, Turnaround: 1133ms, Thread: pool-3-thread-1
+Processed Task 62 (LOW) | Wait: 1079ms, Turnaround: 1133ms, Thread: pool-3-thread-3
+Processed Task 59 (MEDIUM) | Wait: 1079ms, Turnaround: 1134ms, Thread: pool-3-thread-2
+Processed Task 64 (MEDIUM) | Wait: 1134ms, Turnaround: 1186ms, Thread: pool-3-thread-2
+Processed Task 25 (HIGH) | Wait: 1133ms, Turnaround: 1186ms, Thread: pool-3-thread-1
+Processed Task 63 (LOW) | Wait: 1133ms, Turnaround: 1186ms, Thread: pool-3-thread-3
+Processed Task 68 (LOW) | Wait: 1186ms, Turnaround: 1238ms, Thread: pool-3-thread-3
+Processed Task 65 (MEDIUM) | Wait: 1186ms, Turnaround: 1238ms, Thread: pool-3-thread-2
+Processed Task 21 (HIGH) | Wait: 1186ms, Turnaround: 1238ms, Thread: pool-3-thread-1
+Processed Task 69 (LOW) | Wait: 1238ms, Turnaround: 1295ms, Thread: pool-3-thread-3
+Processed Task 20 (HIGH) | Wait: 1238ms, Turnaround: 1295ms, Thread: pool-3-thread-1
+Processed Task 66 (MEDIUM) | Wait: 1238ms, Turnaround: 1295ms, Thread: pool-3-thread-2
+Processed Task 70 (LOW) | Wait: 1295ms, Turnaround: 1348ms, Thread: pool-3-thread-3
+Processed Task 18 (HIGH) | Wait: 1295ms, Turnaround: 1348ms, Thread: pool-3-thread-1
+Processed Task 76 (MEDIUM) | Wait: 1295ms, Turnaround: 1358ms, Thread: pool-3-thread-2
+Processed Task 10 (HIGH) | Wait: 1348ms, Turnaround: 1402ms, Thread: pool-3-thread-1
+Processed Task 71 (LOW) | Wait: 1348ms, Turnaround: 1402ms, Thread: pool-3-thread-3
+Processed Task 77 (MEDIUM) | Wait: 1358ms, Turnaround: 1419ms, Thread: pool-3-thread-2
+Processed Task 9 (HIGH) | Wait: 1402ms, Turnaround: 1458ms, Thread: pool-3-thread-1
+Processed Task 72 (LOW) | Wait: 1402ms, Turnaround: 1458ms, Thread: pool-3-thread-3
+Processed Task 78 (MEDIUM) | Wait: 1419ms, Turnaround: 1474ms, Thread: pool-3-thread-2
+Processed Task 74 (LOW) | Wait: 1458ms, Turnaround: 1511ms, Thread: pool-3-thread-3
+Processed Task 8 (HIGH) | Wait: 1458ms, Turnaround: 1511ms, Thread: pool-3-thread-1
+Processed Task 81 (MEDIUM) | Wait: 1474ms, Turnaround: 1527ms, Thread: pool-3-thread-2
+Processed Task 79 (LOW) | Wait: 1511ms, Turnaround: 1563ms, Thread: pool-3-thread-3
+Processed Task 2 (HIGH) | Wait: 1511ms, Turnaround: 1563ms, Thread: pool-3-thread-1
+Processed Task 83 (MEDIUM) | Wait: 1527ms, Turnaround: 1599ms, Thread: pool-3-thread-2
+Processed Task 80 (LOW) | Wait: 1563ms, Turnaround: 1615ms, Thread: pool-3-thread-3
+Processed Task 89 (MEDIUM) | Wait: 1599ms, Turnaround: 1650ms, Thread: pool-3-thread-2
+Processed Task 82 (LOW) | Wait: 1615ms, Turnaround: 1670ms, Thread: pool-3-thread-3
+Processed Task 95 (MEDIUM) | Wait: 1650ms, Turnaround: 1707ms, Thread: pool-3-thread-2
+Processed Task 87 (LOW) | Wait: 1670ms, Turnaround: 1723ms, Thread: pool-3-thread-3
+Processed Task 100 (MEDIUM) | Wait: 1707ms, Turnaround: 1758ms, Thread: pool-3-thread-2
+Processed Task 88 (LOW) | Wait: 1723ms, Turnaround: 1778ms, Thread: pool-3-thread-3
+Processed Task 91 (LOW) | Wait: 1778ms, Turnaround: 1829ms, Thread: pool-3-thread-3
+Processed Task 93 (LOW) | Wait: 1829ms, Turnaround: 1885ms, Thread: pool-3-thread-3
+Processed Task 96 (LOW) | Wait: 1885ms, Turnaround: 1944ms, Thread: pool-3-thread-3
+Processed Task 97 (LOW) | Wait: 1944ms, Turnaround: 1999ms, Thread: pool-3-thread-3
+Processed Task 98 (LOW) | Wait: 1999ms, Turnaround: 2055ms, Thread: pool-3-thread-3
+Processed Task 99 (LOW) | Wait: 2055ms, Turnaround: 2110ms, Thread: pool-3-thread-3
 
 ----- RESULTS FOR THIS RUN -----
 Tasks processed: 100
-Total elapsed: 2.28 s
-Throughput: 43.90 tasks/s
+Total elapsed: 2.11 s
+Throughput: 47.39 tasks/s
 
 Wait Time (ms):
   Min = 0
-  Max = 2221
-  Avg = 928.46
-  StdDev = 590.28
+  Max = 2055
+  Avg = 885.83
+  StdDev = 546.83
 
 Turnaround Time (ms):
-  Min = 55
-  Max = 2278
-  Avg = 983.60
-  StdDev = 590.34
+  Min = 56
+  Max = 2110
+  Avg = 940.14
+  StdDev = 547.46
 ------------------------------
 
 
 =============================
 Starting run 3 of 5
 =============================
-Processed Task 94 (HIGH) | Wait: 0ms, Turnaround: 57ms, Thread: pool-4-thread-1
-Processed Task 1 (MEDIUM) | Wait: 0ms, Turnaround: 57ms, Thread: pool-4-thread-2
-Processed Task 6 (LOW) | Wait: 0ms, Turnaround: 57ms, Thread: pool-4-thread-3
-Processed Task 14 (LOW) | Wait: 57ms, Turnaround: 111ms, Thread: pool-4-thread-3
-Processed Task 2 (MEDIUM) | Wait: 57ms, Turnaround: 111ms, Thread: pool-4-thread-2
-Processed Task 93 (HIGH) | Wait: 57ms, Turnaround: 111ms, Thread: pool-4-thread-1
-Processed Task 21 (LOW) | Wait: 111ms, Turnaround: 162ms, Thread: pool-4-thread-3
-Processed Task 3 (MEDIUM) | Wait: 111ms, Turnaround: 162ms, Thread: pool-4-thread-2
-Processed Task 90 (HIGH) | Wait: 111ms, Turnaround: 162ms, Thread: pool-4-thread-1
-Processed Task 5 (MEDIUM) | Wait: 162ms, Turnaround: 219ms, Thread: pool-4-thread-2
-Processed Task 87 (HIGH) | Wait: 162ms, Turnaround: 219ms, Thread: pool-4-thread-1
-Processed Task 22 (LOW) | Wait: 162ms, Turnaround: 219ms, Thread: pool-4-thread-3
-Processed Task 25 (LOW) | Wait: 219ms, Turnaround: 273ms, Thread: pool-4-thread-3
-Processed Task 85 (HIGH) | Wait: 219ms, Turnaround: 273ms, Thread: pool-4-thread-1
-Processed Task 7 (MEDIUM) | Wait: 219ms, Turnaround: 273ms, Thread: pool-4-thread-2
-Processed Task 8 (MEDIUM) | Wait: 273ms, Turnaround: 323ms, Thread: pool-4-thread-2
-Processed Task 81 (HIGH) | Wait: 273ms, Turnaround: 323ms, Thread: pool-4-thread-1
-Processed Task 27 (LOW) | Wait: 273ms, Turnaround: 323ms, Thread: pool-4-thread-3
-Processed Task 10 (MEDIUM) | Wait: 323ms, Turnaround: 375ms, Thread: pool-4-thread-2
-Processed Task 73 (HIGH) | Wait: 323ms, Turnaround: 375ms, Thread: pool-4-thread-1
-Processed Task 28 (LOW) | Wait: 323ms, Turnaround: 375ms, Thread: pool-4-thread-3
-Processed Task 11 (MEDIUM) | Wait: 375ms, Turnaround: 434ms, Thread: pool-4-thread-2
-Processed Task 70 (HIGH) | Wait: 375ms, Turnaround: 434ms, Thread: pool-4-thread-1
-Processed Task 32 (LOW) | Wait: 375ms, Turnaround: 434ms, Thread: pool-4-thread-3
-Processed Task 13 (MEDIUM) | Wait: 434ms, Turnaround: 485ms, Thread: pool-4-thread-2
-Processed Task 69 (HIGH) | Wait: 434ms, Turnaround: 485ms, Thread: pool-4-thread-1
-Processed Task 33 (LOW) | Wait: 434ms, Turnaround: 485ms, Thread: pool-4-thread-3
-Processed Task 36 (LOW) | Wait: 485ms, Turnaround: 542ms, Thread: pool-4-thread-3
-Processed Task 66 (HIGH) | Wait: 485ms, Turnaround: 542ms, Thread: pool-4-thread-1
-Processed Task 19 (MEDIUM) | Wait: 485ms, Turnaround: 542ms, Thread: pool-4-thread-2
-Processed Task 20 (MEDIUM) | Wait: 542ms, Turnaround: 593ms, Thread: pool-4-thread-2
-Processed Task 65 (HIGH) | Wait: 542ms, Turnaround: 593ms, Thread: pool-4-thread-1
-Processed Task 39 (LOW) | Wait: 542ms, Turnaround: 593ms, Thread: pool-4-thread-3
-Processed Task 23 (MEDIUM) | Wait: 593ms, Turnaround: 650ms, Thread: pool-4-thread-2
-Processed Task 45 (LOW) | Wait: 593ms, Turnaround: 650ms, Thread: pool-4-thread-3
-Processed Task 58 (HIGH) | Wait: 593ms, Turnaround: 650ms, Thread: pool-4-thread-1
-Processed Task 31 (MEDIUM) | Wait: 650ms, Turnaround: 701ms, Thread: pool-4-thread-2
-Processed Task 57 (HIGH) | Wait: 650ms, Turnaround: 701ms, Thread: pool-4-thread-1
-Processed Task 52 (LOW) | Wait: 650ms, Turnaround: 701ms, Thread: pool-4-thread-3
-Processed Task 34 (MEDIUM) | Wait: 701ms, Turnaround: 758ms, Thread: pool-4-thread-2
-Processed Task 55 (HIGH) | Wait: 701ms, Turnaround: 758ms, Thread: pool-4-thread-1
-Processed Task 56 (LOW) | Wait: 701ms, Turnaround: 758ms, Thread: pool-4-thread-3
-Processed Task 50 (HIGH) | Wait: 758ms, Turnaround: 812ms, Thread: pool-4-thread-1
-Processed Task 37 (MEDIUM) | Wait: 758ms, Turnaround: 812ms, Thread: pool-4-thread-2
-Processed Task 60 (LOW) | Wait: 758ms, Turnaround: 812ms, Thread: pool-4-thread-3
-Processed Task 49 (HIGH) | Wait: 812ms, Turnaround: 863ms, Thread: pool-4-thread-1
-Processed Task 67 (LOW) | Wait: 812ms, Turnaround: 863ms, Thread: pool-4-thread-3
-Processed Task 38 (MEDIUM) | Wait: 812ms, Turnaround: 863ms, Thread: pool-4-thread-2
-Processed Task 48 (HIGH) | Wait: 863ms, Turnaround: 914ms, Thread: pool-4-thread-1
-Processed Task 68 (LOW) | Wait: 863ms, Turnaround: 914ms, Thread: pool-4-thread-3
-Processed Task 41 (MEDIUM) | Wait: 863ms, Turnaround: 914ms, Thread: pool-4-thread-2
-Processed Task 42 (MEDIUM) | Wait: 914ms, Turnaround: 970ms, Thread: pool-4-thread-2
-Processed Task 74 (LOW) | Wait: 914ms, Turnaround: 970ms, Thread: pool-4-thread-3
-Processed Task 46 (HIGH) | Wait: 914ms, Turnaround: 970ms, Thread: pool-4-thread-1
-Processed Task 44 (HIGH) | Wait: 970ms, Turnaround: 1025ms, Thread: pool-4-thread-1
-Processed Task 47 (MEDIUM) | Wait: 970ms, Turnaround: 1025ms, Thread: pool-4-thread-2
-Processed Task 79 (LOW) | Wait: 970ms, Turnaround: 1025ms, Thread: pool-4-thread-3
-Processed Task 80 (LOW) | Wait: 1025ms, Turnaround: 1084ms, Thread: pool-4-thread-3
-Processed Task 51 (MEDIUM) | Wait: 1025ms, Turnaround: 1084ms, Thread: pool-4-thread-2
-Processed Task 43 (HIGH) | Wait: 1025ms, Turnaround: 1084ms, Thread: pool-4-thread-1
-Processed Task 53 (MEDIUM) | Wait: 1084ms, Turnaround: 1135ms, Thread: pool-4-thread-2
-Processed Task 84 (LOW) | Wait: 1084ms, Turnaround: 1135ms, Thread: pool-4-thread-3
-Processed Task 40 (HIGH) | Wait: 1084ms, Turnaround: 1135ms, Thread: pool-4-thread-1
-Processed Task 35 (HIGH) | Wait: 1135ms, Turnaround: 1192ms, Thread: pool-4-thread-1
-Processed Task 54 (MEDIUM) | Wait: 1135ms, Turnaround: 1192ms, Thread: pool-4-thread-2
-Processed Task 86 (LOW) | Wait: 1135ms, Turnaround: 1192ms, Thread: pool-4-thread-3
-Processed Task 59 (MEDIUM) | Wait: 1192ms, Turnaround: 1243ms, Thread: pool-4-thread-2
-Processed Task 92 (LOW) | Wait: 1192ms, Turnaround: 1243ms, Thread: pool-4-thread-3
-Processed Task 30 (HIGH) | Wait: 1192ms, Turnaround: 1243ms, Thread: pool-4-thread-1
-Processed Task 29 (HIGH) | Wait: 1243ms, Turnaround: 1300ms, Thread: pool-4-thread-1
-Processed Task 61 (MEDIUM) | Wait: 1243ms, Turnaround: 1300ms, Thread: pool-4-thread-2
-Processed Task 95 (LOW) | Wait: 1243ms, Turnaround: 1300ms, Thread: pool-4-thread-3
-Processed Task 62 (MEDIUM) | Wait: 1300ms, Turnaround: 1351ms, Thread: pool-4-thread-2
-Processed Task 98 (LOW) | Wait: 1300ms, Turnaround: 1351ms, Thread: pool-4-thread-3
-Processed Task 26 (HIGH) | Wait: 1300ms, Turnaround: 1351ms, Thread: pool-4-thread-1
-Processed Task 63 (MEDIUM) | Wait: 1351ms, Turnaround: 1418ms, Thread: pool-4-thread-2
-Processed Task 24 (HIGH) | Wait: 1351ms, Turnaround: 1418ms, Thread: pool-4-thread-1
-Processed Task 18 (HIGH) | Wait: 1418ms, Turnaround: 1473ms, Thread: pool-4-thread-1
-Processed Task 64 (MEDIUM) | Wait: 1418ms, Turnaround: 1473ms, Thread: pool-4-thread-2
-Processed Task 17 (HIGH) | Wait: 1473ms, Turnaround: 1527ms, Thread: pool-4-thread-1
-Processed Task 71 (MEDIUM) | Wait: 1473ms, Turnaround: 1527ms, Thread: pool-4-thread-2
-Processed Task 72 (MEDIUM) | Wait: 1527ms, Turnaround: 1581ms, Thread: pool-4-thread-2
-Processed Task 16 (HIGH) | Wait: 1527ms, Turnaround: 1581ms, Thread: pool-4-thread-1
-Processed Task 15 (HIGH) | Wait: 1581ms, Turnaround: 1634ms, Thread: pool-4-thread-1
-Processed Task 75 (MEDIUM) | Wait: 1581ms, Turnaround: 1634ms, Thread: pool-4-thread-2
-Processed Task 12 (HIGH) | Wait: 1634ms, Turnaround: 1689ms, Thread: pool-4-thread-1
-Processed Task 76 (MEDIUM) | Wait: 1634ms, Turnaround: 1689ms, Thread: pool-4-thread-2
-Processed Task 9 (HIGH) | Wait: 1689ms, Turnaround: 1742ms, Thread: pool-4-thread-1
-Processed Task 77 (MEDIUM) | Wait: 1689ms, Turnaround: 1742ms, Thread: pool-4-thread-2
-Processed Task 78 (MEDIUM) | Wait: 1742ms, Turnaround: 1798ms, Thread: pool-4-thread-2
-Processed Task 4 (HIGH) | Wait: 1742ms, Turnaround: 1798ms, Thread: pool-4-thread-1
-Processed Task 82 (MEDIUM) | Wait: 1798ms, Turnaround: 1855ms, Thread: pool-4-thread-2
-Processed Task 83 (MEDIUM) | Wait: 1855ms, Turnaround: 1908ms, Thread: pool-4-thread-2
-Processed Task 88 (MEDIUM) | Wait: 1908ms, Turnaround: 1967ms, Thread: pool-4-thread-2
-Processed Task 89 (MEDIUM) | Wait: 1967ms, Turnaround: 2022ms, Thread: pool-4-thread-2
-Processed Task 91 (MEDIUM) | Wait: 2022ms, Turnaround: 2075ms, Thread: pool-4-thread-2
-Processed Task 96 (MEDIUM) | Wait: 2075ms, Turnaround: 2130ms, Thread: pool-4-thread-2
-Processed Task 97 (MEDIUM) | Wait: 2130ms, Turnaround: 2183ms, Thread: pool-4-thread-2
-Processed Task 99 (MEDIUM) | Wait: 2183ms, Turnaround: 2238ms, Thread: pool-4-thread-2
-Processed Task 100 (MEDIUM) | Wait: 2238ms, Turnaround: 2290ms, Thread: pool-4-thread-2
+Processed Task 1 (MEDIUM) | Wait: 1ms, Turnaround: 57ms, Thread: pool-4-thread-2
+Processed Task 100 (HIGH) | Wait: 1ms, Turnaround: 57ms, Thread: pool-4-thread-1
+Processed Task 6 (LOW) | Wait: 1ms, Turnaround: 57ms, Thread: pool-4-thread-3
+Processed Task 8 (LOW) | Wait: 57ms, Turnaround: 112ms, Thread: pool-4-thread-3
+Processed Task 2 (MEDIUM) | Wait: 57ms, Turnaround: 112ms, Thread: pool-4-thread-2
+Processed Task 92 (HIGH) | Wait: 57ms, Turnaround: 112ms, Thread: pool-4-thread-1
+Processed Task 89 (HIGH) | Wait: 112ms, Turnaround: 169ms, Thread: pool-4-thread-1
+Processed Task 3 (MEDIUM) | Wait: 112ms, Turnaround: 169ms, Thread: pool-4-thread-2
+Processed Task 9 (LOW) | Wait: 112ms, Turnaround: 169ms, Thread: pool-4-thread-3
+Processed Task 5 (MEDIUM) | Wait: 169ms, Turnaround: 223ms, Thread: pool-4-thread-2
+Processed Task 88 (HIGH) | Wait: 169ms, Turnaround: 223ms, Thread: pool-4-thread-1
+Processed Task 16 (LOW) | Wait: 169ms, Turnaround: 223ms, Thread: pool-4-thread-3
+Processed Task 87 (HIGH) | Wait: 223ms, Turnaround: 274ms, Thread: pool-4-thread-1
+Processed Task 7 (MEDIUM) | Wait: 223ms, Turnaround: 274ms, Thread: pool-4-thread-2
+Processed Task 21 (LOW) | Wait: 223ms, Turnaround: 274ms, Thread: pool-4-thread-3
+Processed Task 23 (LOW) | Wait: 274ms, Turnaround: 327ms, Thread: pool-4-thread-3
+Processed Task 10 (MEDIUM) | Wait: 274ms, Turnaround: 327ms, Thread: pool-4-thread-2
+Processed Task 86 (HIGH) | Wait: 274ms, Turnaround: 327ms, Thread: pool-4-thread-1
+Processed Task 11 (MEDIUM) | Wait: 327ms, Turnaround: 377ms, Thread: pool-4-thread-2
+Processed Task 26 (LOW) | Wait: 327ms, Turnaround: 377ms, Thread: pool-4-thread-3
+Processed Task 79 (HIGH) | Wait: 327ms, Turnaround: 377ms, Thread: pool-4-thread-1
+Processed Task 12 (MEDIUM) | Wait: 377ms, Turnaround: 432ms, Thread: pool-4-thread-2
+Processed Task 74 (HIGH) | Wait: 377ms, Turnaround: 432ms, Thread: pool-4-thread-1
+Processed Task 28 (LOW) | Wait: 377ms, Turnaround: 432ms, Thread: pool-4-thread-3
+Processed Task 73 (HIGH) | Wait: 432ms, Turnaround: 486ms, Thread: pool-4-thread-1
+Processed Task 29 (LOW) | Wait: 432ms, Turnaround: 486ms, Thread: pool-4-thread-3
+Processed Task 13 (MEDIUM) | Wait: 432ms, Turnaround: 486ms, Thread: pool-4-thread-2
+Processed Task 64 (HIGH) | Wait: 486ms, Turnaround: 543ms, Thread: pool-4-thread-1
+Processed Task 14 (MEDIUM) | Wait: 486ms, Turnaround: 543ms, Thread: pool-4-thread-2
+Processed Task 31 (LOW) | Wait: 486ms, Turnaround: 543ms, Thread: pool-4-thread-3
+Processed Task 15 (MEDIUM) | Wait: 543ms, Turnaround: 599ms, Thread: pool-4-thread-2
+Processed Task 37 (LOW) | Wait: 543ms, Turnaround: 599ms, Thread: pool-4-thread-3
+Processed Task 53 (HIGH) | Wait: 543ms, Turnaround: 599ms, Thread: pool-4-thread-1
+Processed Task 52 (HIGH) | Wait: 599ms, Turnaround: 658ms, Thread: pool-4-thread-1
+Processed Task 39 (LOW) | Wait: 599ms, Turnaround: 658ms, Thread: pool-4-thread-3
+Processed Task 17 (MEDIUM) | Wait: 599ms, Turnaround: 658ms, Thread: pool-4-thread-2
+Processed Task 19 (MEDIUM) | Wait: 658ms, Turnaround: 709ms, Thread: pool-4-thread-2
+Processed Task 40 (LOW) | Wait: 658ms, Turnaround: 709ms, Thread: pool-4-thread-3
+Processed Task 47 (HIGH) | Wait: 658ms, Turnaround: 709ms, Thread: pool-4-thread-1
+Processed Task 20 (MEDIUM) | Wait: 709ms, Turnaround: 771ms, Thread: pool-4-thread-2
+Processed Task 45 (HIGH) | Wait: 709ms, Turnaround: 771ms, Thread: pool-4-thread-1
+Processed Task 44 (LOW) | Wait: 709ms, Turnaround: 771ms, Thread: pool-4-thread-3
+Processed Task 49 (LOW) | Wait: 771ms, Turnaround: 830ms, Thread: pool-4-thread-3
+Processed Task 24 (MEDIUM) | Wait: 771ms, Turnaround: 830ms, Thread: pool-4-thread-2
+Processed Task 43 (HIGH) | Wait: 771ms, Turnaround: 830ms, Thread: pool-4-thread-1
+Processed Task 41 (HIGH) | Wait: 830ms, Turnaround: 886ms, Thread: pool-4-thread-1
+Processed Task 50 (LOW) | Wait: 830ms, Turnaround: 886ms, Thread: pool-4-thread-3
+Processed Task 27 (MEDIUM) | Wait: 830ms, Turnaround: 886ms, Thread: pool-4-thread-2
+Processed Task 38 (HIGH) | Wait: 886ms, Turnaround: 961ms, Thread: pool-4-thread-1
+Processed Task 55 (LOW) | Wait: 886ms, Turnaround: 961ms, Thread: pool-4-thread-3
+Processed Task 30 (MEDIUM) | Wait: 886ms, Turnaround: 961ms, Thread: pool-4-thread-2
+Processed Task 56 (LOW) | Wait: 961ms, Turnaround: 1015ms, Thread: pool-4-thread-3
+Processed Task 36 (MEDIUM) | Wait: 961ms, Turnaround: 1015ms, Thread: pool-4-thread-2
+Processed Task 35 (HIGH) | Wait: 961ms, Turnaround: 1015ms, Thread: pool-4-thread-1
+Processed Task 42 (MEDIUM) | Wait: 1015ms, Turnaround: 1066ms, Thread: pool-4-thread-2
+Processed Task 34 (HIGH) | Wait: 1015ms, Turnaround: 1066ms, Thread: pool-4-thread-1
+Processed Task 57 (LOW) | Wait: 1015ms, Turnaround: 1066ms, Thread: pool-4-thread-3
+Processed Task 46 (MEDIUM) | Wait: 1066ms, Turnaround: 1117ms, Thread: pool-4-thread-2
+Processed Task 65 (LOW) | Wait: 1066ms, Turnaround: 1117ms, Thread: pool-4-thread-3
+Processed Task 33 (HIGH) | Wait: 1066ms, Turnaround: 1117ms, Thread: pool-4-thread-1
+Processed Task 32 (HIGH) | Wait: 1117ms, Turnaround: 1175ms, Thread: pool-4-thread-1
+Processed Task 71 (LOW) | Wait: 1117ms, Turnaround: 1175ms, Thread: pool-4-thread-3
+Processed Task 48 (MEDIUM) | Wait: 1117ms, Turnaround: 1175ms, Thread: pool-4-thread-2
+Processed Task 51 (MEDIUM) | Wait: 1175ms, Turnaround: 1226ms, Thread: pool-4-thread-2
+Processed Task 25 (HIGH) | Wait: 1175ms, Turnaround: 1226ms, Thread: pool-4-thread-1
+Processed Task 78 (LOW) | Wait: 1175ms, Turnaround: 1226ms, Thread: pool-4-thread-3
+Processed Task 54 (MEDIUM) | Wait: 1226ms, Turnaround: 1283ms, Thread: pool-4-thread-2
+Processed Task 22 (HIGH) | Wait: 1226ms, Turnaround: 1283ms, Thread: pool-4-thread-1
+Processed Task 83 (LOW) | Wait: 1226ms, Turnaround: 1283ms, Thread: pool-4-thread-3
+Processed Task 58 (MEDIUM) | Wait: 1283ms, Turnaround: 1334ms, Thread: pool-4-thread-2
+Processed Task 91 (LOW) | Wait: 1283ms, Turnaround: 1334ms, Thread: pool-4-thread-3
+Processed Task 18 (HIGH) | Wait: 1283ms, Turnaround: 1334ms, Thread: pool-4-thread-1
+Processed Task 59 (MEDIUM) | Wait: 1334ms, Turnaround: 1391ms, Thread: pool-4-thread-2
+Processed Task 94 (LOW) | Wait: 1334ms, Turnaround: 1391ms, Thread: pool-4-thread-3
+Processed Task 4 (HIGH) | Wait: 1334ms, Turnaround: 1391ms, Thread: pool-4-thread-1
+Processed Task 60 (MEDIUM) | Wait: 1391ms, Turnaround: 1442ms, Thread: pool-4-thread-2
+Processed Task 95 (LOW) | Wait: 1391ms, Turnaround: 1442ms, Thread: pool-4-thread-3
+Processed Task 61 (MEDIUM) | Wait: 1442ms, Turnaround: 1499ms, Thread: pool-4-thread-2
+Processed Task 96 (LOW) | Wait: 1442ms, Turnaround: 1499ms, Thread: pool-4-thread-3
+Processed Task 62 (MEDIUM) | Wait: 1499ms, Turnaround: 1553ms, Thread: pool-4-thread-2
+Processed Task 63 (MEDIUM) | Wait: 1553ms, Turnaround: 1603ms, Thread: pool-4-thread-2
+Processed Task 66 (MEDIUM) | Wait: 1603ms, Turnaround: 1658ms, Thread: pool-4-thread-2
+Processed Task 67 (MEDIUM) | Wait: 1658ms, Turnaround: 1717ms, Thread: pool-4-thread-2
+Processed Task 68 (MEDIUM) | Wait: 1717ms, Turnaround: 1772ms, Thread: pool-4-thread-2
+Processed Task 69 (MEDIUM) | Wait: 1772ms, Turnaround: 1826ms, Thread: pool-4-thread-2
+Processed Task 70 (MEDIUM) | Wait: 1826ms, Turnaround: 1882ms, Thread: pool-4-thread-2
+Processed Task 72 (MEDIUM) | Wait: 1882ms, Turnaround: 1942ms, Thread: pool-4-thread-2
+Processed Task 75 (MEDIUM) | Wait: 1942ms, Turnaround: 1997ms, Thread: pool-4-thread-2
+Processed Task 76 (MEDIUM) | Wait: 1997ms, Turnaround: 2050ms, Thread: pool-4-thread-2
+Processed Task 77 (MEDIUM) | Wait: 2050ms, Turnaround: 2107ms, Thread: pool-4-thread-2
+Processed Task 80 (MEDIUM) | Wait: 2107ms, Turnaround: 2169ms, Thread: pool-4-thread-2
+Processed Task 81 (MEDIUM) | Wait: 2169ms, Turnaround: 2242ms, Thread: pool-4-thread-2
+Processed Task 82 (MEDIUM) | Wait: 2242ms, Turnaround: 2293ms, Thread: pool-4-thread-2
+Processed Task 84 (MEDIUM) | Wait: 2293ms, Turnaround: 2350ms, Thread: pool-4-thread-2
+Processed Task 85 (MEDIUM) | Wait: 2350ms, Turnaround: 2401ms, Thread: pool-4-thread-2
+Processed Task 90 (MEDIUM) | Wait: 2401ms, Turnaround: 2458ms, Thread: pool-4-thread-2
+Processed Task 93 (MEDIUM) | Wait: 2458ms, Turnaround: 2509ms, Thread: pool-4-thread-2
+Processed Task 97 (MEDIUM) | Wait: 2509ms, Turnaround: 2566ms, Thread: pool-4-thread-2
+Processed Task 98 (MEDIUM) | Wait: 2566ms, Turnaround: 2620ms, Thread: pool-4-thread-2
+Processed Task 99 (MEDIUM) | Wait: 2620ms, Turnaround: 2671ms, Thread: pool-4-thread-2
 
 ----- RESULTS FOR THIS RUN -----
 Tasks processed: 100
-Total elapsed: 2.29 s
-Throughput: 43.67 tasks/s
+Total elapsed: 2.67 s
+Throughput: 37.44 tasks/s
 
 Wait Time (ms):
-  Min = 0
-  Max = 2238
-  Avg = 916.69
-  StdDev = 588.18
+  Min = 1
+  Max = 2620
+  Avg = 987.73
+  StdDev = 687.82
 
 Turnaround Time (ms):
   Min = 57
-  Max = 2290
-  Avg = 971.08
-  StdDev = 588.47
+  Max = 2671
+  Avg = 1043.31
+  StdDev = 688.02
 ------------------------------
 
 
 =============================
 Starting run 4 of 5
 =============================
-Processed Task 1 (MEDIUM) | Wait: 0ms, Turnaround: 54ms, Thread: pool-5-thread-2
-Processed Task 99 (HIGH) | Wait: 0ms, Turnaround: 54ms, Thread: pool-5-thread-1
-Processed Task 2 (LOW) | Wait: 0ms, Turnaround: 55ms, Thread: pool-5-thread-3
-Processed Task 98 (HIGH) | Wait: 54ms, Turnaround: 105ms, Thread: pool-5-thread-1
-Processed Task 4 (MEDIUM) | Wait: 54ms, Turnaround: 105ms, Thread: pool-5-thread-2
-Processed Task 3 (LOW) | Wait: 55ms, Turnaround: 121ms, Thread: pool-5-thread-3
-Processed Task 95 (HIGH) | Wait: 105ms, Turnaround: 159ms, Thread: pool-5-thread-1
-Processed Task 6 (MEDIUM) | Wait: 105ms, Turnaround: 159ms, Thread: pool-5-thread-2
-Processed Task 5 (LOW) | Wait: 121ms, Turnaround: 173ms, Thread: pool-5-thread-3
-Processed Task 7 (MEDIUM) | Wait: 159ms, Turnaround: 213ms, Thread: pool-5-thread-2
-Processed Task 93 (HIGH) | Wait: 159ms, Turnaround: 213ms, Thread: pool-5-thread-1
-Processed Task 9 (LOW) | Wait: 173ms, Turnaround: 229ms, Thread: pool-5-thread-3
-Processed Task 10 (MEDIUM) | Wait: 213ms, Turnaround: 266ms, Thread: pool-5-thread-2
-Processed Task 92 (HIGH) | Wait: 213ms, Turnaround: 266ms, Thread: pool-5-thread-1
-Processed Task 11 (LOW) | Wait: 229ms, Turnaround: 303ms, Thread: pool-5-thread-3
-Processed Task 91 (HIGH) | Wait: 266ms, Turnaround: 320ms, Thread: pool-5-thread-1
-Processed Task 13 (MEDIUM) | Wait: 266ms, Turnaround: 320ms, Thread: pool-5-thread-2
-Processed Task 16 (LOW) | Wait: 303ms, Turnaround: 354ms, Thread: pool-5-thread-3
-Processed Task 14 (MEDIUM) | Wait: 320ms, Turnaround: 375ms, Thread: pool-5-thread-2
-Processed Task 89 (HIGH) | Wait: 320ms, Turnaround: 375ms, Thread: pool-5-thread-1
-Processed Task 20 (LOW) | Wait: 354ms, Turnaround: 412ms, Thread: pool-5-thread-3
-Processed Task 18 (MEDIUM) | Wait: 375ms, Turnaround: 428ms, Thread: pool-5-thread-2
-Processed Task 85 (HIGH) | Wait: 375ms, Turnaround: 428ms, Thread: pool-5-thread-1
-Processed Task 21 (LOW) | Wait: 412ms, Turnaround: 462ms, Thread: pool-5-thread-3
-Processed Task 23 (MEDIUM) | Wait: 428ms, Turnaround: 482ms, Thread: pool-5-thread-2
-Processed Task 84 (HIGH) | Wait: 428ms, Turnaround: 482ms, Thread: pool-5-thread-1
-Processed Task 25 (LOW) | Wait: 462ms, Turnaround: 519ms, Thread: pool-5-thread-3
-Processed Task 82 (HIGH) | Wait: 482ms, Turnaround: 537ms, Thread: pool-5-thread-1
-Processed Task 28 (MEDIUM) | Wait: 482ms, Turnaround: 537ms, Thread: pool-5-thread-2
-Processed Task 26 (LOW) | Wait: 519ms, Turnaround: 571ms, Thread: pool-5-thread-3
-Processed Task 81 (HIGH) | Wait: 537ms, Turnaround: 592ms, Thread: pool-5-thread-1
-Processed Task 30 (MEDIUM) | Wait: 537ms, Turnaround: 592ms, Thread: pool-5-thread-2
-Processed Task 31 (LOW) | Wait: 571ms, Turnaround: 630ms, Thread: pool-5-thread-3
-Processed Task 35 (MEDIUM) | Wait: 592ms, Turnaround: 646ms, Thread: pool-5-thread-2
-Processed Task 80 (HIGH) | Wait: 592ms, Turnaround: 646ms, Thread: pool-5-thread-1
-Processed Task 33 (LOW) | Wait: 630ms, Turnaround: 681ms, Thread: pool-5-thread-3
-Processed Task 42 (MEDIUM) | Wait: 646ms, Turnaround: 702ms, Thread: pool-5-thread-2
-Processed Task 73 (HIGH) | Wait: 646ms, Turnaround: 702ms, Thread: pool-5-thread-1
-Processed Task 34 (LOW) | Wait: 681ms, Turnaround: 738ms, Thread: pool-5-thread-3
-Processed Task 43 (MEDIUM) | Wait: 702ms, Turnaround: 755ms, Thread: pool-5-thread-2
-Processed Task 68 (HIGH) | Wait: 702ms, Turnaround: 755ms, Thread: pool-5-thread-1
-Processed Task 36 (LOW) | Wait: 738ms, Turnaround: 789ms, Thread: pool-5-thread-3
-Processed Task 44 (MEDIUM) | Wait: 755ms, Turnaround: 810ms, Thread: pool-5-thread-2
-Processed Task 67 (HIGH) | Wait: 755ms, Turnaround: 810ms, Thread: pool-5-thread-1
-Processed Task 37 (LOW) | Wait: 789ms, Turnaround: 847ms, Thread: pool-5-thread-3
-Processed Task 65 (HIGH) | Wait: 810ms, Turnaround: 863ms, Thread: pool-5-thread-1
-Processed Task 48 (MEDIUM) | Wait: 810ms, Turnaround: 863ms, Thread: pool-5-thread-2
-Processed Task 39 (LOW) | Wait: 847ms, Turnaround: 897ms, Thread: pool-5-thread-3
-Processed Task 63 (HIGH) | Wait: 863ms, Turnaround: 918ms, Thread: pool-5-thread-1
-Processed Task 50 (MEDIUM) | Wait: 863ms, Turnaround: 918ms, Thread: pool-5-thread-2
-Processed Task 41 (LOW) | Wait: 897ms, Turnaround: 954ms, Thread: pool-5-thread-3
-Processed Task 53 (MEDIUM) | Wait: 918ms, Turnaround: 971ms, Thread: pool-5-thread-2
-Processed Task 59 (HIGH) | Wait: 918ms, Turnaround: 971ms, Thread: pool-5-thread-1
-Processed Task 45 (LOW) | Wait: 954ms, Turnaround: 1006ms, Thread: pool-5-thread-3
-Processed Task 54 (MEDIUM) | Wait: 971ms, Turnaround: 1021ms, Thread: pool-5-thread-2
-Processed Task 58 (HIGH) | Wait: 971ms, Turnaround: 1021ms, Thread: pool-5-thread-1
-Processed Task 51 (LOW) | Wait: 1006ms, Turnaround: 1062ms, Thread: pool-5-thread-3
-Processed Task 57 (HIGH) | Wait: 1021ms, Turnaround: 1078ms, Thread: pool-5-thread-1
-Processed Task 56 (MEDIUM) | Wait: 1021ms, Turnaround: 1078ms, Thread: pool-5-thread-2
-Processed Task 52 (LOW) | Wait: 1062ms, Turnaround: 1128ms, Thread: pool-5-thread-3
-Processed Task 60 (MEDIUM) | Wait: 1078ms, Turnaround: 1129ms, Thread: pool-5-thread-2
-Processed Task 55 (HIGH) | Wait: 1078ms, Turnaround: 1129ms, Thread: pool-5-thread-1
-Processed Task 49 (HIGH) | Wait: 1129ms, Turnaround: 1189ms, Thread: pool-5-thread-1
-Processed Task 61 (MEDIUM) | Wait: 1129ms, Turnaround: 1189ms, Thread: pool-5-thread-2
-Processed Task 71 (LOW) | Wait: 1128ms, Turnaround: 1189ms, Thread: pool-5-thread-3
-Processed Task 75 (LOW) | Wait: 1189ms, Turnaround: 1245ms, Thread: pool-5-thread-3
-Processed Task 62 (MEDIUM) | Wait: 1189ms, Turnaround: 1245ms, Thread: pool-5-thread-2
-Processed Task 47 (HIGH) | Wait: 1189ms, Turnaround: 1245ms, Thread: pool-5-thread-1
-Processed Task 64 (MEDIUM) | Wait: 1245ms, Turnaround: 1304ms, Thread: pool-5-thread-2
-Processed Task 83 (LOW) | Wait: 1245ms, Turnaround: 1304ms, Thread: pool-5-thread-3
-Processed Task 46 (HIGH) | Wait: 1245ms, Turnaround: 1304ms, Thread: pool-5-thread-1
-Processed Task 66 (MEDIUM) | Wait: 1304ms, Turnaround: 1359ms, Thread: pool-5-thread-2
-Processed Task 40 (HIGH) | Wait: 1304ms, Turnaround: 1359ms, Thread: pool-5-thread-1
-Processed Task 94 (LOW) | Wait: 1304ms, Turnaround: 1359ms, Thread: pool-5-thread-3
-Processed Task 38 (HIGH) | Wait: 1359ms, Turnaround: 1412ms, Thread: pool-5-thread-1
-Processed Task 96 (LOW) | Wait: 1359ms, Turnaround: 1412ms, Thread: pool-5-thread-3
-Processed Task 69 (MEDIUM) | Wait: 1359ms, Turnaround: 1412ms, Thread: pool-5-thread-2
-Processed Task 32 (HIGH) | Wait: 1412ms, Turnaround: 1476ms, Thread: pool-5-thread-1
-Processed Task 70 (MEDIUM) | Wait: 1412ms, Turnaround: 1476ms, Thread: pool-5-thread-2
-Processed Task 29 (HIGH) | Wait: 1476ms, Turnaround: 1527ms, Thread: pool-5-thread-1
-Processed Task 72 (MEDIUM) | Wait: 1476ms, Turnaround: 1527ms, Thread: pool-5-thread-2
-Processed Task 27 (HIGH) | Wait: 1527ms, Turnaround: 1589ms, Thread: pool-5-thread-1
-Processed Task 74 (MEDIUM) | Wait: 1527ms, Turnaround: 1589ms, Thread: pool-5-thread-2
-Processed Task 24 (HIGH) | Wait: 1589ms, Turnaround: 1644ms, Thread: pool-5-thread-1
-Processed Task 76 (MEDIUM) | Wait: 1589ms, Turnaround: 1644ms, Thread: pool-5-thread-2
-Processed Task 77 (MEDIUM) | Wait: 1644ms, Turnaround: 1694ms, Thread: pool-5-thread-2
-Processed Task 22 (HIGH) | Wait: 1644ms, Turnaround: 1694ms, Thread: pool-5-thread-1
-Processed Task 19 (HIGH) | Wait: 1694ms, Turnaround: 1750ms, Thread: pool-5-thread-1
-Processed Task 78 (MEDIUM) | Wait: 1694ms, Turnaround: 1750ms, Thread: pool-5-thread-2
-Processed Task 17 (HIGH) | Wait: 1750ms, Turnaround: 1802ms, Thread: pool-5-thread-1
-Processed Task 79 (MEDIUM) | Wait: 1750ms, Turnaround: 1802ms, Thread: pool-5-thread-2
-Processed Task 15 (HIGH) | Wait: 1802ms, Turnaround: 1859ms, Thread: pool-5-thread-1
-Processed Task 86 (MEDIUM) | Wait: 1802ms, Turnaround: 1859ms, Thread: pool-5-thread-2
-Processed Task 87 (MEDIUM) | Wait: 1859ms, Turnaround: 1910ms, Thread: pool-5-thread-2
-Processed Task 12 (HIGH) | Wait: 1859ms, Turnaround: 1910ms, Thread: pool-5-thread-1
-Processed Task 8 (HIGH) | Wait: 1910ms, Turnaround: 1967ms, Thread: pool-5-thread-1
-Processed Task 88 (MEDIUM) | Wait: 1910ms, Turnaround: 1967ms, Thread: pool-5-thread-2
-Processed Task 90 (MEDIUM) | Wait: 1967ms, Turnaround: 2032ms, Thread: pool-5-thread-2
-Processed Task 97 (MEDIUM) | Wait: 2032ms, Turnaround: 2097ms, Thread: pool-5-thread-2
-Processed Task 100 (MEDIUM) | Wait: 2097ms, Turnaround: 2157ms, Thread: pool-5-thread-2
+Processed Task 2 (MEDIUM) | Wait: 0ms, Turnaround: 53ms, Thread: pool-5-thread-2
+Processed Task 100 (HIGH) | Wait: 0ms, Turnaround: 53ms, Thread: pool-5-thread-1
+Processed Task 1 (LOW) | Wait: 0ms, Turnaround: 55ms, Thread: pool-5-thread-3
+Processed Task 98 (HIGH) | Wait: 53ms, Turnaround: 119ms, Thread: pool-5-thread-1
+Processed Task 6 (MEDIUM) | Wait: 53ms, Turnaround: 119ms, Thread: pool-5-thread-2
+Processed Task 3 (LOW) | Wait: 55ms, Turnaround: 119ms, Thread: pool-5-thread-3
+Processed Task 13 (MEDIUM) | Wait: 119ms, Turnaround: 173ms, Thread: pool-5-thread-2
+Processed Task 91 (HIGH) | Wait: 119ms, Turnaround: 173ms, Thread: pool-5-thread-1
+Processed Task 4 (LOW) | Wait: 119ms, Turnaround: 173ms, Thread: pool-5-thread-3
+Processed Task 7 (LOW) | Wait: 173ms, Turnaround: 226ms, Thread: pool-5-thread-3
+Processed Task 15 (MEDIUM) | Wait: 173ms, Turnaround: 226ms, Thread: pool-5-thread-2
+Processed Task 90 (HIGH) | Wait: 173ms, Turnaround: 226ms, Thread: pool-5-thread-1
+Processed Task 89 (HIGH) | Wait: 226ms, Turnaround: 280ms, Thread: pool-5-thread-1
+Processed Task 8 (LOW) | Wait: 226ms, Turnaround: 280ms, Thread: pool-5-thread-3
+Processed Task 19 (MEDIUM) | Wait: 226ms, Turnaround: 280ms, Thread: pool-5-thread-2
+Processed Task 22 (MEDIUM) | Wait: 280ms, Turnaround: 334ms, Thread: pool-5-thread-2
+Processed Task 12 (LOW) | Wait: 280ms, Turnaround: 334ms, Thread: pool-5-thread-3
+Processed Task 86 (HIGH) | Wait: 280ms, Turnaround: 334ms, Thread: pool-5-thread-1
+Processed Task 85 (HIGH) | Wait: 334ms, Turnaround: 389ms, Thread: pool-5-thread-1
+Processed Task 26 (MEDIUM) | Wait: 334ms, Turnaround: 389ms, Thread: pool-5-thread-2
+Processed Task 18 (LOW) | Wait: 334ms, Turnaround: 389ms, Thread: pool-5-thread-3
+Processed Task 21 (LOW) | Wait: 389ms, Turnaround: 441ms, Thread: pool-5-thread-3
+Processed Task 33 (MEDIUM) | Wait: 389ms, Turnaround: 441ms, Thread: pool-5-thread-2
+Processed Task 84 (HIGH) | Wait: 389ms, Turnaround: 441ms, Thread: pool-5-thread-1
+Processed Task 35 (MEDIUM) | Wait: 441ms, Turnaround: 498ms, Thread: pool-5-thread-2
+Processed Task 24 (LOW) | Wait: 441ms, Turnaround: 498ms, Thread: pool-5-thread-3
+Processed Task 82 (HIGH) | Wait: 441ms, Turnaround: 498ms, Thread: pool-5-thread-1
+Processed Task 81 (HIGH) | Wait: 498ms, Turnaround: 560ms, Thread: pool-5-thread-1
+Processed Task 27 (LOW) | Wait: 498ms, Turnaround: 560ms, Thread: pool-5-thread-3
+Processed Task 36 (MEDIUM) | Wait: 498ms, Turnaround: 560ms, Thread: pool-5-thread-2
+Processed Task 79 (HIGH) | Wait: 560ms, Turnaround: 615ms, Thread: pool-5-thread-1
+Processed Task 37 (MEDIUM) | Wait: 560ms, Turnaround: 615ms, Thread: pool-5-thread-2
+Processed Task 31 (LOW) | Wait: 560ms, Turnaround: 615ms, Thread: pool-5-thread-3
+Processed Task 73 (HIGH) | Wait: 615ms, Turnaround: 668ms, Thread: pool-5-thread-1
+Processed Task 40 (MEDIUM) | Wait: 615ms, Turnaround: 668ms, Thread: pool-5-thread-2
+Processed Task 32 (LOW) | Wait: 615ms, Turnaround: 668ms, Thread: pool-5-thread-3
+Processed Task 69 (HIGH) | Wait: 668ms, Turnaround: 723ms, Thread: pool-5-thread-1
+Processed Task 45 (MEDIUM) | Wait: 668ms, Turnaround: 723ms, Thread: pool-5-thread-2
+Processed Task 34 (LOW) | Wait: 668ms, Turnaround: 723ms, Thread: pool-5-thread-3
+Processed Task 65 (HIGH) | Wait: 723ms, Turnaround: 775ms, Thread: pool-5-thread-1
+Processed Task 38 (LOW) | Wait: 723ms, Turnaround: 775ms, Thread: pool-5-thread-3
+Processed Task 49 (MEDIUM) | Wait: 723ms, Turnaround: 775ms, Thread: pool-5-thread-2
+Processed Task 63 (HIGH) | Wait: 775ms, Turnaround: 831ms, Thread: pool-5-thread-1
+Processed Task 51 (MEDIUM) | Wait: 775ms, Turnaround: 831ms, Thread: pool-5-thread-2
+Processed Task 41 (LOW) | Wait: 775ms, Turnaround: 831ms, Thread: pool-5-thread-3
+Processed Task 58 (HIGH) | Wait: 831ms, Turnaround: 883ms, Thread: pool-5-thread-1
+Processed Task 53 (MEDIUM) | Wait: 831ms, Turnaround: 883ms, Thread: pool-5-thread-2
+Processed Task 42 (LOW) | Wait: 831ms, Turnaround: 883ms, Thread: pool-5-thread-3
+Processed Task 44 (LOW) | Wait: 883ms, Turnaround: 938ms, Thread: pool-5-thread-3
+Processed Task 50 (HIGH) | Wait: 883ms, Turnaround: 938ms, Thread: pool-5-thread-1
+Processed Task 55 (MEDIUM) | Wait: 883ms, Turnaround: 938ms, Thread: pool-5-thread-2
+Processed Task 46 (LOW) | Wait: 938ms, Turnaround: 1002ms, Thread: pool-5-thread-3
+Processed Task 56 (MEDIUM) | Wait: 938ms, Turnaround: 1002ms, Thread: pool-5-thread-2
+Processed Task 47 (HIGH) | Wait: 938ms, Turnaround: 1002ms, Thread: pool-5-thread-1
+Processed Task 48 (LOW) | Wait: 1002ms, Turnaround: 1066ms, Thread: pool-5-thread-3
+Processed Task 57 (MEDIUM) | Wait: 1002ms, Turnaround: 1066ms, Thread: pool-5-thread-2
+Processed Task 43 (HIGH) | Wait: 1002ms, Turnaround: 1066ms, Thread: pool-5-thread-1
+Processed Task 60 (MEDIUM) | Wait: 1066ms, Turnaround: 1132ms, Thread: pool-5-thread-2
+Processed Task 39 (HIGH) | Wait: 1066ms, Turnaround: 1132ms, Thread: pool-5-thread-1
+Processed Task 52 (LOW) | Wait: 1066ms, Turnaround: 1132ms, Thread: pool-5-thread-3
+Processed Task 30 (HIGH) | Wait: 1132ms, Turnaround: 1191ms, Thread: pool-5-thread-1
+Processed Task 54 (LOW) | Wait: 1132ms, Turnaround: 1191ms, Thread: pool-5-thread-3
+Processed Task 64 (MEDIUM) | Wait: 1132ms, Turnaround: 1191ms, Thread: pool-5-thread-2
+Processed Task 59 (LOW) | Wait: 1191ms, Turnaround: 1242ms, Thread: pool-5-thread-3
+Processed Task 29 (HIGH) | Wait: 1191ms, Turnaround: 1242ms, Thread: pool-5-thread-1
+Processed Task 66 (MEDIUM) | Wait: 1191ms, Turnaround: 1242ms, Thread: pool-5-thread-2
+Processed Task 70 (MEDIUM) | Wait: 1242ms, Turnaround: 1299ms, Thread: pool-5-thread-2
+Processed Task 61 (LOW) | Wait: 1242ms, Turnaround: 1299ms, Thread: pool-5-thread-3
+Processed Task 28 (HIGH) | Wait: 1242ms, Turnaround: 1299ms, Thread: pool-5-thread-1
+Processed Task 88 (MEDIUM) | Wait: 1299ms, Turnaround: 1350ms, Thread: pool-5-thread-2
+Processed Task 25 (HIGH) | Wait: 1299ms, Turnaround: 1350ms, Thread: pool-5-thread-1
+Processed Task 62 (LOW) | Wait: 1299ms, Turnaround: 1350ms, Thread: pool-5-thread-3
+Processed Task 67 (LOW) | Wait: 1350ms, Turnaround: 1407ms, Thread: pool-5-thread-3
+Processed Task 23 (HIGH) | Wait: 1350ms, Turnaround: 1407ms, Thread: pool-5-thread-1
+Processed Task 95 (MEDIUM) | Wait: 1350ms, Turnaround: 1407ms, Thread: pool-5-thread-2
+Processed Task 20 (HIGH) | Wait: 1407ms, Turnaround: 1458ms, Thread: pool-5-thread-1
+Processed Task 68 (LOW) | Wait: 1407ms, Turnaround: 1458ms, Thread: pool-5-thread-3
+Processed Task 96 (MEDIUM) | Wait: 1407ms, Turnaround: 1458ms, Thread: pool-5-thread-2
+Processed Task 71 (LOW) | Wait: 1458ms, Turnaround: 1514ms, Thread: pool-5-thread-3
+Processed Task 17 (HIGH) | Wait: 1458ms, Turnaround: 1514ms, Thread: pool-5-thread-1
+Processed Task 16 (HIGH) | Wait: 1514ms, Turnaround: 1569ms, Thread: pool-5-thread-1
+Processed Task 72 (LOW) | Wait: 1514ms, Turnaround: 1569ms, Thread: pool-5-thread-3
+Processed Task 14 (HIGH) | Wait: 1569ms, Turnaround: 1619ms, Thread: pool-5-thread-1
+Processed Task 74 (LOW) | Wait: 1569ms, Turnaround: 1619ms, Thread: pool-5-thread-3
+Processed Task 75 (LOW) | Wait: 1619ms, Turnaround: 1670ms, Thread: pool-5-thread-3
+Processed Task 11 (HIGH) | Wait: 1619ms, Turnaround: 1670ms, Thread: pool-5-thread-1
+Processed Task 76 (LOW) | Wait: 1670ms, Turnaround: 1727ms, Thread: pool-5-thread-3
+Processed Task 10 (HIGH) | Wait: 1670ms, Turnaround: 1727ms, Thread: pool-5-thread-1
+Processed Task 77 (LOW) | Wait: 1727ms, Turnaround: 1778ms, Thread: pool-5-thread-3
+Processed Task 9 (HIGH) | Wait: 1727ms, Turnaround: 1778ms, Thread: pool-5-thread-1
+Processed Task 78 (LOW) | Wait: 1778ms, Turnaround: 1835ms, Thread: pool-5-thread-3
+Processed Task 5 (HIGH) | Wait: 1778ms, Turnaround: 1835ms, Thread: pool-5-thread-1
+Processed Task 80 (LOW) | Wait: 1835ms, Turnaround: 1886ms, Thread: pool-5-thread-3
+Processed Task 83 (LOW) | Wait: 1886ms, Turnaround: 1943ms, Thread: pool-5-thread-3
+Processed Task 87 (LOW) | Wait: 1943ms, Turnaround: 1994ms, Thread: pool-5-thread-3
+Processed Task 92 (LOW) | Wait: 1994ms, Turnaround: 2048ms, Thread: pool-5-thread-3
+Processed Task 93 (LOW) | Wait: 2048ms, Turnaround: 2105ms, Thread: pool-5-thread-3
+Processed Task 94 (LOW) | Wait: 2105ms, Turnaround: 2160ms, Thread: pool-5-thread-3
+Processed Task 97 (LOW) | Wait: 2160ms, Turnaround: 2211ms, Thread: pool-5-thread-3
+Processed Task 99 (LOW) | Wait: 2211ms, Turnaround: 2268ms, Thread: pool-5-thread-3
 
 ----- RESULTS FOR THIS RUN -----
 Tasks processed: 100
-Total elapsed: 2.16 s
-Throughput: 46.36 tasks/s
+Total elapsed: 2.27 s
+Throughput: 44.09 tasks/s
 
 Wait Time (ms):
   Min = 0
-  Max = 2097
-  Avg = 914.92
-  StdDev = 571.10
+  Max = 2211
+  Avg = 934.39
+  StdDev = 587.46
 
 Turnaround Time (ms):
-  Min = 54
-  Max = 2157
-  Avg = 970.28
-  StdDev = 571.79
+  Min = 53
+  Max = 2268
+  Avg = 990.00
+  StdDev = 586.91
 ------------------------------
 
 
 =============================
 Starting run 5 of 5
 =============================
-Processed Task 100 (HIGH) | Wait: 0ms, Turnaround: 54ms, Thread: pool-6-thread-1
-Processed Task 8 (MEDIUM) | Wait: 0ms, Turnaround: 54ms, Thread: pool-6-thread-2
-Processed Task 3 (LOW) | Wait: 0ms, Turnaround: 54ms, Thread: pool-6-thread-3
-Processed Task 98 (HIGH) | Wait: 54ms, Turnaround: 104ms, Thread: pool-6-thread-1
-Processed Task 9 (MEDIUM) | Wait: 54ms, Turnaround: 104ms, Thread: pool-6-thread-2
-Processed Task 4 (LOW) | Wait: 54ms, Turnaround: 104ms, Thread: pool-6-thread-3
-Processed Task 7 (LOW) | Wait: 104ms, Turnaround: 155ms, Thread: pool-6-thread-3
-Processed Task 16 (MEDIUM) | Wait: 104ms, Turnaround: 155ms, Thread: pool-6-thread-2
-Processed Task 97 (HIGH) | Wait: 104ms, Turnaround: 155ms, Thread: pool-6-thread-1
-Processed Task 95 (HIGH) | Wait: 155ms, Turnaround: 213ms, Thread: pool-6-thread-1
-Processed Task 11 (LOW) | Wait: 155ms, Turnaround: 213ms, Thread: pool-6-thread-3
-Processed Task 21 (MEDIUM) | Wait: 155ms, Turnaround: 213ms, Thread: pool-6-thread-2
-Processed Task 12 (LOW) | Wait: 213ms, Turnaround: 264ms, Thread: pool-6-thread-3
-Processed Task 94 (HIGH) | Wait: 213ms, Turnaround: 264ms, Thread: pool-6-thread-1
-Processed Task 22 (MEDIUM) | Wait: 213ms, Turnaround: 264ms, Thread: pool-6-thread-2
-Processed Task 13 (LOW) | Wait: 264ms, Turnaround: 320ms, Thread: pool-6-thread-3
-Processed Task 26 (MEDIUM) | Wait: 264ms, Turnaround: 320ms, Thread: pool-6-thread-2
-Processed Task 93 (HIGH) | Wait: 264ms, Turnaround: 320ms, Thread: pool-6-thread-1
-Processed Task 32 (MEDIUM) | Wait: 320ms, Turnaround: 371ms, Thread: pool-6-thread-2
-Processed Task 91 (HIGH) | Wait: 320ms, Turnaround: 371ms, Thread: pool-6-thread-1
-Processed Task 14 (LOW) | Wait: 320ms, Turnaround: 371ms, Thread: pool-6-thread-3
-Processed Task 35 (MEDIUM) | Wait: 371ms, Turnaround: 427ms, Thread: pool-6-thread-2
-Processed Task 89 (HIGH) | Wait: 371ms, Turnaround: 427ms, Thread: pool-6-thread-1
-Processed Task 20 (LOW) | Wait: 371ms, Turnaround: 427ms, Thread: pool-6-thread-3
-Processed Task 36 (MEDIUM) | Wait: 427ms, Turnaround: 478ms, Thread: pool-6-thread-2
-Processed Task 86 (HIGH) | Wait: 427ms, Turnaround: 478ms, Thread: pool-6-thread-1
-Processed Task 23 (LOW) | Wait: 427ms, Turnaround: 478ms, Thread: pool-6-thread-3
-Processed Task 37 (MEDIUM) | Wait: 478ms, Turnaround: 535ms, Thread: pool-6-thread-2
-Processed Task 85 (HIGH) | Wait: 478ms, Turnaround: 535ms, Thread: pool-6-thread-1
-Processed Task 24 (LOW) | Wait: 478ms, Turnaround: 535ms, Thread: pool-6-thread-3
-Processed Task 39 (MEDIUM) | Wait: 535ms, Turnaround: 588ms, Thread: pool-6-thread-2
-Processed Task 31 (LOW) | Wait: 535ms, Turnaround: 588ms, Thread: pool-6-thread-3
-Processed Task 80 (HIGH) | Wait: 535ms, Turnaround: 588ms, Thread: pool-6-thread-1
-Processed Task 34 (LOW) | Wait: 588ms, Turnaround: 640ms, Thread: pool-6-thread-3
-Processed Task 71 (HIGH) | Wait: 588ms, Turnaround: 640ms, Thread: pool-6-thread-1
-Processed Task 43 (MEDIUM) | Wait: 588ms, Turnaround: 640ms, Thread: pool-6-thread-2
-Processed Task 40 (LOW) | Wait: 640ms, Turnaround: 690ms, Thread: pool-6-thread-3
-Processed Task 45 (MEDIUM) | Wait: 640ms, Turnaround: 690ms, Thread: pool-6-thread-2
-Processed Task 70 (HIGH) | Wait: 640ms, Turnaround: 690ms, Thread: pool-6-thread-1
-Processed Task 42 (LOW) | Wait: 690ms, Turnaround: 746ms, Thread: pool-6-thread-3
-Processed Task 67 (HIGH) | Wait: 690ms, Turnaround: 746ms, Thread: pool-6-thread-1
-Processed Task 48 (MEDIUM) | Wait: 690ms, Turnaround: 746ms, Thread: pool-6-thread-2
-Processed Task 54 (LOW) | Wait: 746ms, Turnaround: 797ms, Thread: pool-6-thread-3
-Processed Task 66 (HIGH) | Wait: 746ms, Turnaround: 797ms, Thread: pool-6-thread-1
-Processed Task 49 (MEDIUM) | Wait: 746ms, Turnaround: 797ms, Thread: pool-6-thread-2
-Processed Task 64 (HIGH) | Wait: 797ms, Turnaround: 854ms, Thread: pool-6-thread-1
-Processed Task 50 (MEDIUM) | Wait: 797ms, Turnaround: 854ms, Thread: pool-6-thread-2
-Processed Task 57 (LOW) | Wait: 797ms, Turnaround: 854ms, Thread: pool-6-thread-3
-Processed Task 58 (LOW) | Wait: 854ms, Turnaround: 916ms, Thread: pool-6-thread-3
-Processed Task 55 (MEDIUM) | Wait: 854ms, Turnaround: 916ms, Thread: pool-6-thread-2
-Processed Task 56 (HIGH) | Wait: 854ms, Turnaround: 916ms, Thread: pool-6-thread-1
-Processed Task 60 (MEDIUM) | Wait: 916ms, Turnaround: 972ms, Thread: pool-6-thread-2
-Processed Task 59 (LOW) | Wait: 916ms, Turnaround: 972ms, Thread: pool-6-thread-3
-Processed Task 53 (HIGH) | Wait: 916ms, Turnaround: 972ms, Thread: pool-6-thread-1
-Processed Task 62 (LOW) | Wait: 972ms, Turnaround: 1027ms, Thread: pool-6-thread-3
-Processed Task 61 (MEDIUM) | Wait: 972ms, Turnaround: 1027ms, Thread: pool-6-thread-2
-Processed Task 52 (HIGH) | Wait: 972ms, Turnaround: 1027ms, Thread: pool-6-thread-1
-Processed Task 63 (LOW) | Wait: 1027ms, Turnaround: 1081ms, Thread: pool-6-thread-3
-Processed Task 51 (HIGH) | Wait: 1027ms, Turnaround: 1081ms, Thread: pool-6-thread-1
-Processed Task 68 (MEDIUM) | Wait: 1027ms, Turnaround: 1081ms, Thread: pool-6-thread-2
-Processed Task 65 (LOW) | Wait: 1081ms, Turnaround: 1132ms, Thread: pool-6-thread-3
-Processed Task 47 (HIGH) | Wait: 1081ms, Turnaround: 1132ms, Thread: pool-6-thread-1
-Processed Task 72 (MEDIUM) | Wait: 1081ms, Turnaround: 1132ms, Thread: pool-6-thread-2
-Processed Task 69 (LOW) | Wait: 1132ms, Turnaround: 1185ms, Thread: pool-6-thread-3
-Processed Task 73 (MEDIUM) | Wait: 1132ms, Turnaround: 1185ms, Thread: pool-6-thread-2
-Processed Task 46 (HIGH) | Wait: 1132ms, Turnaround: 1185ms, Thread: pool-6-thread-1
-Processed Task 44 (HIGH) | Wait: 1185ms, Turnaround: 1239ms, Thread: pool-6-thread-1
-Processed Task 76 (LOW) | Wait: 1185ms, Turnaround: 1239ms, Thread: pool-6-thread-3
-Processed Task 74 (MEDIUM) | Wait: 1185ms, Turnaround: 1239ms, Thread: pool-6-thread-2
-Processed Task 75 (MEDIUM) | Wait: 1239ms, Turnaround: 1293ms, Thread: pool-6-thread-2
-Processed Task 41 (HIGH) | Wait: 1239ms, Turnaround: 1293ms, Thread: pool-6-thread-1
-Processed Task 77 (LOW) | Wait: 1239ms, Turnaround: 1293ms, Thread: pool-6-thread-3
-Processed Task 81 (LOW) | Wait: 1293ms, Turnaround: 1348ms, Thread: pool-6-thread-3
-Processed Task 78 (MEDIUM) | Wait: 1293ms, Turnaround: 1348ms, Thread: pool-6-thread-2
-Processed Task 38 (HIGH) | Wait: 1293ms, Turnaround: 1348ms, Thread: pool-6-thread-1
-Processed Task 79 (MEDIUM) | Wait: 1348ms, Turnaround: 1406ms, Thread: pool-6-thread-2
-Processed Task 82 (LOW) | Wait: 1348ms, Turnaround: 1406ms, Thread: pool-6-thread-3
-Processed Task 33 (HIGH) | Wait: 1348ms, Turnaround: 1406ms, Thread: pool-6-thread-1
-Processed Task 87 (MEDIUM) | Wait: 1406ms, Turnaround: 1462ms, Thread: pool-6-thread-2
-Processed Task 30 (HIGH) | Wait: 1406ms, Turnaround: 1462ms, Thread: pool-6-thread-1
-Processed Task 83 (LOW) | Wait: 1406ms, Turnaround: 1462ms, Thread: pool-6-thread-3
-Processed Task 84 (LOW) | Wait: 1462ms, Turnaround: 1515ms, Thread: pool-6-thread-3
-Processed Task 29 (HIGH) | Wait: 1462ms, Turnaround: 1515ms, Thread: pool-6-thread-1
-Processed Task 92 (MEDIUM) | Wait: 1462ms, Turnaround: 1515ms, Thread: pool-6-thread-2
-Processed Task 99 (MEDIUM) | Wait: 1515ms, Turnaround: 1569ms, Thread: pool-6-thread-2
-Processed Task 88 (LOW) | Wait: 1515ms, Turnaround: 1569ms, Thread: pool-6-thread-3
-Processed Task 28 (HIGH) | Wait: 1515ms, Turnaround: 1569ms, Thread: pool-6-thread-1
-Processed Task 90 (LOW) | Wait: 1569ms, Turnaround: 1623ms, Thread: pool-6-thread-3
-Processed Task 27 (HIGH) | Wait: 1569ms, Turnaround: 1623ms, Thread: pool-6-thread-1
-Processed Task 25 (HIGH) | Wait: 1623ms, Turnaround: 1674ms, Thread: pool-6-thread-1
-Processed Task 96 (LOW) | Wait: 1623ms, Turnaround: 1674ms, Thread: pool-6-thread-3
-Processed Task 19 (HIGH) | Wait: 1674ms, Turnaround: 1727ms, Thread: pool-6-thread-1
-Processed Task 18 (HIGH) | Wait: 1727ms, Turnaround: 1782ms, Thread: pool-6-thread-1
-Processed Task 17 (HIGH) | Wait: 1782ms, Turnaround: 1834ms, Thread: pool-6-thread-1
-Processed Task 15 (HIGH) | Wait: 1834ms, Turnaround: 1889ms, Thread: pool-6-thread-1
-Processed Task 10 (HIGH) | Wait: 1889ms, Turnaround: 1942ms, Thread: pool-6-thread-1
-Processed Task 6 (HIGH) | Wait: 1942ms, Turnaround: 1997ms, Thread: pool-6-thread-1
-Processed Task 5 (HIGH) | Wait: 1997ms, Turnaround: 2050ms, Thread: pool-6-thread-1
-Processed Task 2 (HIGH) | Wait: 2050ms, Turnaround: 2105ms, Thread: pool-6-thread-1
-Processed Task 1 (HIGH) | Wait: 2105ms, Turnaround: 2168ms, Thread: pool-6-thread-1
+Processed Task 11 (LOW) | Wait: 0ms, Turnaround: 52ms, Thread: pool-6-thread-3
+Processed Task 99 (HIGH) | Wait: 0ms, Turnaround: 52ms, Thread: pool-6-thread-1
+Processed Task 1 (MEDIUM) | Wait: 0ms, Turnaround: 52ms, Thread: pool-6-thread-2
+Processed Task 19 (LOW) | Wait: 52ms, Turnaround: 118ms, Thread: pool-6-thread-3
+Processed Task 95 (HIGH) | Wait: 52ms, Turnaround: 118ms, Thread: pool-6-thread-1
+Processed Task 2 (MEDIUM) | Wait: 52ms, Turnaround: 118ms, Thread: pool-6-thread-2
+Processed Task 20 (LOW) | Wait: 118ms, Turnaround: 172ms, Thread: pool-6-thread-3
+Processed Task 94 (HIGH) | Wait: 118ms, Turnaround: 172ms, Thread: pool-6-thread-1
+Processed Task 3 (MEDIUM) | Wait: 118ms, Turnaround: 172ms, Thread: pool-6-thread-2
+Processed Task 30 (LOW) | Wait: 172ms, Turnaround: 226ms, Thread: pool-6-thread-3
+Processed Task 93 (HIGH) | Wait: 172ms, Turnaround: 226ms, Thread: pool-6-thread-1
+Processed Task 5 (MEDIUM) | Wait: 172ms, Turnaround: 226ms, Thread: pool-6-thread-2
+Processed Task 32 (LOW) | Wait: 226ms, Turnaround: 281ms, Thread: pool-6-thread-3
+Processed Task 92 (HIGH) | Wait: 226ms, Turnaround: 281ms, Thread: pool-6-thread-1
+Processed Task 8 (MEDIUM) | Wait: 226ms, Turnaround: 281ms, Thread: pool-6-thread-2
+Processed Task 35 (LOW) | Wait: 281ms, Turnaround: 333ms, Thread: pool-6-thread-3
+Processed Task 9 (MEDIUM) | Wait: 281ms, Turnaround: 333ms, Thread: pool-6-thread-2
+Processed Task 80 (HIGH) | Wait: 281ms, Turnaround: 333ms, Thread: pool-6-thread-1
+Processed Task 41 (LOW) | Wait: 333ms, Turnaround: 387ms, Thread: pool-6-thread-3
+Processed Task 73 (HIGH) | Wait: 333ms, Turnaround: 387ms, Thread: pool-6-thread-1
+Processed Task 12 (MEDIUM) | Wait: 333ms, Turnaround: 387ms, Thread: pool-6-thread-2
+Processed Task 45 (LOW) | Wait: 387ms, Turnaround: 439ms, Thread: pool-6-thread-3
+Processed Task 67 (HIGH) | Wait: 387ms, Turnaround: 439ms, Thread: pool-6-thread-1
+Processed Task 13 (MEDIUM) | Wait: 387ms, Turnaround: 439ms, Thread: pool-6-thread-2
+Processed Task 46 (LOW) | Wait: 439ms, Turnaround: 493ms, Thread: pool-6-thread-3
+Processed Task 21 (MEDIUM) | Wait: 439ms, Turnaround: 493ms, Thread: pool-6-thread-2
+Processed Task 66 (HIGH) | Wait: 439ms, Turnaround: 493ms, Thread: pool-6-thread-1
+Processed Task 47 (LOW) | Wait: 493ms, Turnaround: 545ms, Thread: pool-6-thread-3
+Processed Task 62 (HIGH) | Wait: 493ms, Turnaround: 545ms, Thread: pool-6-thread-1
+Processed Task 22 (MEDIUM) | Wait: 493ms, Turnaround: 545ms, Thread: pool-6-thread-2
+Processed Task 60 (HIGH) | Wait: 545ms, Turnaround: 600ms, Thread: pool-6-thread-1
+Processed Task 24 (MEDIUM) | Wait: 545ms, Turnaround: 600ms, Thread: pool-6-thread-2
+Processed Task 55 (LOW) | Wait: 545ms, Turnaround: 600ms, Thread: pool-6-thread-3
+Processed Task 56 (LOW) | Wait: 600ms, Turnaround: 653ms, Thread: pool-6-thread-3
+Processed Task 53 (HIGH) | Wait: 600ms, Turnaround: 653ms, Thread: pool-6-thread-1
+Processed Task 26 (MEDIUM) | Wait: 600ms, Turnaround: 653ms, Thread: pool-6-thread-2
+Processed Task 52 (HIGH) | Wait: 653ms, Turnaround: 707ms, Thread: pool-6-thread-1
+Processed Task 27 (MEDIUM) | Wait: 653ms, Turnaround: 707ms, Thread: pool-6-thread-2
+Processed Task 58 (LOW) | Wait: 653ms, Turnaround: 707ms, Thread: pool-6-thread-3
+Processed Task 50 (HIGH) | Wait: 707ms, Turnaround: 757ms, Thread: pool-6-thread-1
+Processed Task 28 (MEDIUM) | Wait: 707ms, Turnaround: 757ms, Thread: pool-6-thread-2
+Processed Task 59 (LOW) | Wait: 707ms, Turnaround: 757ms, Thread: pool-6-thread-3
+Processed Task 61 (LOW) | Wait: 757ms, Turnaround: 812ms, Thread: pool-6-thread-3
+Processed Task 29 (MEDIUM) | Wait: 757ms, Turnaround: 812ms, Thread: pool-6-thread-2
+Processed Task 49 (HIGH) | Wait: 757ms, Turnaround: 812ms, Thread: pool-6-thread-1
+Processed Task 44 (HIGH) | Wait: 812ms, Turnaround: 864ms, Thread: pool-6-thread-1
+Processed Task 63 (LOW) | Wait: 812ms, Turnaround: 864ms, Thread: pool-6-thread-3
+Processed Task 31 (MEDIUM) | Wait: 812ms, Turnaround: 864ms, Thread: pool-6-thread-2
+Processed Task 65 (LOW) | Wait: 864ms, Turnaround: 919ms, Thread: pool-6-thread-3
+Processed Task 33 (MEDIUM) | Wait: 864ms, Turnaround: 919ms, Thread: pool-6-thread-2
+Processed Task 42 (HIGH) | Wait: 864ms, Turnaround: 919ms, Thread: pool-6-thread-1
+Processed Task 37 (HIGH) | Wait: 919ms, Turnaround: 972ms, Thread: pool-6-thread-1
+Processed Task 69 (LOW) | Wait: 919ms, Turnaround: 972ms, Thread: pool-6-thread-3
+Processed Task 36 (MEDIUM) | Wait: 919ms, Turnaround: 972ms, Thread: pool-6-thread-2
+Processed Task 71 (LOW) | Wait: 972ms, Turnaround: 1023ms, Thread: pool-6-thread-3
+Processed Task 38 (MEDIUM) | Wait: 972ms, Turnaround: 1023ms, Thread: pool-6-thread-2
+Processed Task 34 (HIGH) | Wait: 972ms, Turnaround: 1023ms, Thread: pool-6-thread-1
+Processed Task 74 (LOW) | Wait: 1023ms, Turnaround: 1076ms, Thread: pool-6-thread-3
+Processed Task 25 (HIGH) | Wait: 1023ms, Turnaround: 1076ms, Thread: pool-6-thread-1
+Processed Task 39 (MEDIUM) | Wait: 1023ms, Turnaround: 1076ms, Thread: pool-6-thread-2
+Processed Task 23 (HIGH) | Wait: 1076ms, Turnaround: 1131ms, Thread: pool-6-thread-1
+Processed Task 40 (MEDIUM) | Wait: 1076ms, Turnaround: 1131ms, Thread: pool-6-thread-2
+Processed Task 76 (LOW) | Wait: 1076ms, Turnaround: 1131ms, Thread: pool-6-thread-3
+Processed Task 43 (MEDIUM) | Wait: 1131ms, Turnaround: 1184ms, Thread: pool-6-thread-2
+Processed Task 78 (LOW) | Wait: 1131ms, Turnaround: 1184ms, Thread: pool-6-thread-3
+Processed Task 18 (HIGH) | Wait: 1131ms, Turnaround: 1184ms, Thread: pool-6-thread-1
+Processed Task 17 (HIGH) | Wait: 1184ms, Turnaround: 1240ms, Thread: pool-6-thread-1
+Processed Task 79 (LOW) | Wait: 1184ms, Turnaround: 1240ms, Thread: pool-6-thread-3
+Processed Task 48 (MEDIUM) | Wait: 1184ms, Turnaround: 1240ms, Thread: pool-6-thread-2
+Processed Task 16 (HIGH) | Wait: 1240ms, Turnaround: 1293ms, Thread: pool-6-thread-1
+Processed Task 82 (LOW) | Wait: 1240ms, Turnaround: 1293ms, Thread: pool-6-thread-3
+Processed Task 51 (MEDIUM) | Wait: 1240ms, Turnaround: 1293ms, Thread: pool-6-thread-2
+Processed Task 83 (LOW) | Wait: 1293ms, Turnaround: 1347ms, Thread: pool-6-thread-3
+Processed Task 15 (HIGH) | Wait: 1293ms, Turnaround: 1347ms, Thread: pool-6-thread-1
+Processed Task 54 (MEDIUM) | Wait: 1293ms, Turnaround: 1347ms, Thread: pool-6-thread-2
+Processed Task 14 (HIGH) | Wait: 1347ms, Turnaround: 1401ms, Thread: pool-6-thread-1
+Processed Task 57 (MEDIUM) | Wait: 1347ms, Turnaround: 1401ms, Thread: pool-6-thread-2
+Processed Task 87 (LOW) | Wait: 1347ms, Turnaround: 1401ms, Thread: pool-6-thread-3
+Processed Task 10 (HIGH) | Wait: 1401ms, Turnaround: 1455ms, Thread: pool-6-thread-1
+Processed Task 88 (LOW) | Wait: 1401ms, Turnaround: 1455ms, Thread: pool-6-thread-3
+Processed Task 64 (MEDIUM) | Wait: 1401ms, Turnaround: 1455ms, Thread: pool-6-thread-2
+Processed Task 68 (MEDIUM) | Wait: 1455ms, Turnaround: 1509ms, Thread: pool-6-thread-2
+Processed Task 7 (HIGH) | Wait: 1455ms, Turnaround: 1509ms, Thread: pool-6-thread-1
+Processed Task 89 (LOW) | Wait: 1455ms, Turnaround: 1509ms, Thread: pool-6-thread-3
+Processed Task 6 (HIGH) | Wait: 1509ms, Turnaround: 1564ms, Thread: pool-6-thread-1
+Processed Task 70 (MEDIUM) | Wait: 1509ms, Turnaround: 1564ms, Thread: pool-6-thread-2
+Processed Task 96 (LOW) | Wait: 1509ms, Turnaround: 1564ms, Thread: pool-6-thread-3
+Processed Task 97 (LOW) | Wait: 1564ms, Turnaround: 1616ms, Thread: pool-6-thread-3
+Processed Task 4 (HIGH) | Wait: 1564ms, Turnaround: 1616ms, Thread: pool-6-thread-1
+Processed Task 72 (MEDIUM) | Wait: 1564ms, Turnaround: 1616ms, Thread: pool-6-thread-2
+Processed Task 75 (MEDIUM) | Wait: 1616ms, Turnaround: 1672ms, Thread: pool-6-thread-2
+Processed Task 98 (LOW) | Wait: 1616ms, Turnaround: 1672ms, Thread: pool-6-thread-3
+Processed Task 100 (LOW) | Wait: 1672ms, Turnaround: 1725ms, Thread: pool-6-thread-3
+Processed Task 77 (MEDIUM) | Wait: 1672ms, Turnaround: 1725ms, Thread: pool-6-thread-2
+Processed Task 81 (MEDIUM) | Wait: 1725ms, Turnaround: 1779ms, Thread: pool-6-thread-2
+Processed Task 84 (MEDIUM) | Wait: 1779ms, Turnaround: 1833ms, Thread: pool-6-thread-2
+Processed Task 85 (MEDIUM) | Wait: 1833ms, Turnaround: 1887ms, Thread: pool-6-thread-2
+Processed Task 86 (MEDIUM) | Wait: 1887ms, Turnaround: 1940ms, Thread: pool-6-thread-2
+Processed Task 90 (MEDIUM) | Wait: 1940ms, Turnaround: 1996ms, Thread: pool-6-thread-2
+Processed Task 91 (MEDIUM) | Wait: 1996ms, Turnaround: 2049ms, Thread: pool-6-thread-2
 
 ----- RESULTS FOR THIS RUN -----
 Tasks processed: 100
-Total elapsed: 2.17 s
-Throughput: 46.13 tasks/s
+Total elapsed: 2.05 s
+Throughput: 48.80 tasks/s
 
 Wait Time (ms):
   Min = 0
-  Max = 2105
-  Avg = 888.20
-  StdDev = 554.01
+  Max = 1996
+  Avg = 883.95
+  StdDev = 531.93
 
 Turnaround Time (ms):
-  Min = 54
-  Max = 2168
-  Avg = 942.31
-  StdDev = 554.55
+  Min = 52
+  Max = 2049
+  Avg = 937.85
+  StdDev = 531.61
 ------------------------------
 
 
