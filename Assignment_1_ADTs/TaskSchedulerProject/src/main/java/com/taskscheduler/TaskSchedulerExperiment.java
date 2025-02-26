@@ -1,4 +1,4 @@
-//package yourpackage; // (Optional) If using a package, adjust as needed.
+package com.taskscheduler;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -10,128 +10,8 @@ import java.util.concurrent.*;
 
 public class TaskSchedulerExperiment {
 
-    enum Priority {
-        LOW, MEDIUM, HIGH
-    }
-
-    static class Task {
-        private static final List<Long> allWaitTimes =
-                Collections.synchronizedList(new ArrayList<>());
-        private static final List<Long> allTurnaroundTimes =
-                Collections.synchronizedList(new ArrayList<>());
-
-        int id;
-        Priority priority;
-        long creationTime;
-        long startTime;
-        long finishTime;
-
-        public Task(int i, Priority prio) {
-            this.id = i;
-            this.priority = prio;
-            this.creationTime = System.currentTimeMillis();
-        }
-
-        public void process() {
-            startTime = System.currentTimeMillis();
-            try {
-                Thread.sleep(50);
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-            }
-            finishTime = System.currentTimeMillis();
-
-            long wait = startTime - creationTime;
-            long turnaround = finishTime - creationTime;
-
-            allWaitTimes.add(wait);
-            allTurnaroundTimes.add(turnaround);
-
-            System.out.println("Processed Task " + id + " (" + priority + ") | " +
-                               "Wait: " + wait + "ms, " +
-                               "Turnaround: " + turnaround + "ms, " +
-                               "Thread: " + Thread.currentThread().getName());
-        }
-
-        public static List<Long> getAllWaitTimes() { return allWaitTimes; }
-        public static List<Long> getAllTurnaroundTimes() { return allTurnaroundTimes; }
-
-        // Clears the static lists so each run is independent.
-        public static void resetMetrics() {
-            allWaitTimes.clear();
-            allTurnaroundTimes.clear();
-        }
-    }
-
-    static class TaskScheduler {
-        private Queue<Task> lowQ = new ConcurrentLinkedQueue<>();
-        private Deque<Task> mediumQ = new ConcurrentLinkedDeque<>();
-        private Stack<Task> highStack = new Stack<>();
-
-        public void addTask(Task t) {
-            switch (t.priority) {
-                case LOW:
-                    lowQ.offer(t);
-                    break;
-                case MEDIUM:
-                    mediumQ.offerLast(t);
-                    break;
-                case HIGH:
-                    highStack.push(t);
-                    break;
-            }
-        }
-
-        public Task getTask(Priority p) {
-            switch (p) {
-                case LOW:
-                    return lowQ.poll();
-                case MEDIUM:
-                    return mediumQ.pollFirst();
-                case HIGH:
-                    if (!highStack.isEmpty()) {
-                        return highStack.pop();
-                    }
-                    return null;
-                default:
-                    return null;
-            }
-        }
-
-        public boolean isEmpty() {
-            return lowQ.isEmpty() && mediumQ.isEmpty() && highStack.isEmpty();
-        }
-    }
-
-    static class Worker implements Runnable {
-        private final TaskScheduler scheduler;
-        private final Priority prio;
-
-        public Worker(TaskScheduler s, Priority p) {
-            this.scheduler = s;
-            this.prio = p;
-        }
-
-        @Override
-        public void run() {
-            while (!scheduler.isEmpty()) {
-                Task task = scheduler.getTask(prio);
-                if (task != null) {
-                    task.process();
-                } else {
-                    try {
-                        Thread.sleep(10);
-                    } catch (InterruptedException e) {
-                        Thread.currentThread().interrupt();
-                    }
-                }
-            }
-        }
-    }
-
-    // We'll run the experiment multiple times and store each run's data in output/runs.csv
     public static void main(String[] args) {
-        int totalRuns = 50; // or 100, or however many runs you want
+        int totalRuns = 5; // or 100, or however many runs you want
 
         // Ensure our "output" folder exists
         File outputDir = new File("output");

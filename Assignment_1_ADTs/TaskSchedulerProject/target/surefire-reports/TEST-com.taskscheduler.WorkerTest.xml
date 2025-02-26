@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.taskscheduler.WorkerTest" time="1.398" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\watek\Desktop\TaskSchedulerProject\TaskSchedulerProject\target\test-classes;C:\Users\watek\Desktop\TaskSchedulerProject\TaskSchedulerProject\target\classes;C:\Users\watek\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\watek\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Dublin"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\watek\AppData\Local\Temp\surefire9836147255381607682\surefirebooter-20250226131340728_3.jar C:\Users\watek\AppData\Local\Temp\surefire9836147255381607682 2025-02-26T13-13-40_562-jvmRun1 surefire-20250226131340728_1tmp surefire_0-20250226131340728_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\watek\Desktop\TaskSchedulerProject\TaskSchedulerProject\target\test-classes;C:\Users\watek\Desktop\TaskSchedulerProject\TaskSchedulerProject\target\classes;C:\Users\watek\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\watek\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\watek"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\watek\Desktop\TaskSchedulerProject\TaskSchedulerProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\watek\AppData\Local\Temp\surefire9836147255381607682\surefirebooter-20250226131340728_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="watek"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\watek\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\watek\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\watek\Desktop\TaskSchedulerProject\TaskSchedulerProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\xpressmp\bin;C:\xpressmp\workbench;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\watek\AppData\Local\Microsoft\WindowsApps;C:\Users\watek\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\watek\AppData\Roaming\npm;C:\Program Files\apache-maven-3.9.9\bin;C:\Users\watek\AppData\Local\Microsoft\WindowsApps;C:\Users\watek\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\watek\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testWorkerProcessing" classname="com.taskscheduler.WorkerTest" time="1.398">
+    <system-out><![CDATA[Processed Task 49 (HIGH) | Wait: 0ms, Turnaround: 58ms, Thread: Thread-2
+Processed Task 50 (HIGH) | Wait: 0ms, Turnaround: 58ms, Thread: Thread-1
+Processed Task 48 (HIGH) | Wait: 58ms, Turnaround: 116ms, Thread: Thread-1
+Processed Task 47 (HIGH) | Wait: 58ms, Turnaround: 116ms, Thread: Thread-2
+Processed Task 46 (HIGH) | Wait: 116ms, Turnaround: 166ms, Thread: Thread-1
+Processed Task 45 (HIGH) | Wait: 116ms, Turnaround: 169ms, Thread: Thread-2
+Processed Task 44 (HIGH) | Wait: 166ms, Turnaround: 231ms, Thread: Thread-1
+Processed Task 43 (HIGH) | Wait: 169ms, Turnaround: 231ms, Thread: Thread-2
+Processed Task 42 (HIGH) | Wait: 231ms, Turnaround: 285ms, Thread: Thread-2
+Processed Task 41 (HIGH) | Wait: 231ms, Turnaround: 285ms, Thread: Thread-1
+Processed Task 40 (HIGH) | Wait: 285ms, Turnaround: 339ms, Thread: Thread-2
+Processed Task 39 (HIGH) | Wait: 285ms, Turnaround: 339ms, Thread: Thread-1
+Processed Task 38 (HIGH) | Wait: 339ms, Turnaround: 391ms, Thread: Thread-2
+Processed Task 37 (HIGH) | Wait: 339ms, Turnaround: 391ms, Thread: Thread-1
+Processed Task 35 (HIGH) | Wait: 391ms, Turnaround: 445ms, Thread: Thread-2
+Processed Task 36 (HIGH) | Wait: 391ms, Turnaround: 445ms, Thread: Thread-1
+Processed Task 33 (HIGH) | Wait: 445ms, Turnaround: 501ms, Thread: Thread-2
+Processed Task 34 (HIGH) | Wait: 445ms, Turnaround: 501ms, Thread: Thread-1
+Processed Task 31 (HIGH) | Wait: 501ms, Turnaround: 557ms, Thread: Thread-2
+Processed Task 32 (HIGH) | Wait: 501ms, Turnaround: 557ms, Thread: Thread-1
+Processed Task 29 (HIGH) | Wait: 557ms, Turnaround: 631ms, Thread: Thread-2
+Processed Task 30 (HIGH) | Wait: 557ms, Turnaround: 631ms, Thread: Thread-1
+Processed Task 28 (HIGH) | Wait: 631ms, Turnaround: 682ms, Thread: Thread-2
+Processed Task 27 (HIGH) | Wait: 631ms, Turnaround: 682ms, Thread: Thread-1
+Processed Task 26 (HIGH) | Wait: 682ms, Turnaround: 739ms, Thread: Thread-1
+Processed Task 25 (HIGH) | Wait: 682ms, Turnaround: 739ms, Thread: Thread-2
+Processed Task 23 (HIGH) | Wait: 739ms, Turnaround: 796ms, Thread: Thread-2
+Processed Task 24 (HIGH) | Wait: 739ms, Turnaround: 796ms, Thread: Thread-1
+Processed Task 22 (HIGH) | Wait: 796ms, Turnaround: 855ms, Thread: Thread-2
+Processed Task 21 (HIGH) | Wait: 796ms, Turnaround: 855ms, Thread: Thread-1
+Processed Task 19 (HIGH) | Wait: 855ms, Turnaround: 911ms, Thread: Thread-2
+Processed Task 20 (HIGH) | Wait: 855ms, Turnaround: 911ms, Thread: Thread-1
+Processed Task 17 (HIGH) | Wait: 911ms, Turnaround: 961ms, Thread: Thread-2
+Processed Task 18 (HIGH) | Wait: 911ms, Turnaround: 961ms, Thread: Thread-1
+Processed Task 16 (HIGH) | Wait: 961ms, Turnaround: 1011ms, Thread: Thread-1
+Processed Task 15 (HIGH) | Wait: 961ms, Turnaround: 1011ms, Thread: Thread-2
+Processed Task 13 (HIGH) | Wait: 1011ms, Turnaround: 1068ms, Thread: Thread-1
+Processed Task 14 (HIGH) | Wait: 1011ms, Turnaround: 1068ms, Thread: Thread-2
+Processed Task 11 (HIGH) | Wait: 1068ms, Turnaround: 1122ms, Thread: Thread-2
+Processed Task 12 (HIGH) | Wait: 1068ms, Turnaround: 1122ms, Thread: Thread-1
+Processed Task 10 (HIGH) | Wait: 1122ms, Turnaround: 1173ms, Thread: Thread-2
+Processed Task 9 (HIGH) | Wait: 1122ms, Turnaround: 1173ms, Thread: Thread-1
+Processed Task 7 (HIGH) | Wait: 1173ms, Turnaround: 1232ms, Thread: Thread-2
+Processed Task 8 (HIGH) | Wait: 1173ms, Turnaround: 1232ms, Thread: Thread-1
+Processed Task 5 (HIGH) | Wait: 1232ms, Turnaround: 1291ms, Thread: Thread-1
+Processed Task 6 (HIGH) | Wait: 1232ms, Turnaround: 1291ms, Thread: Thread-2
+Processed Task 3 (HIGH) | Wait: 1291ms, Turnaround: 1342ms, Thread: Thread-1
+Processed Task 4 (HIGH) | Wait: 1291ms, Turnaround: 1342ms, Thread: Thread-2
+Processed Task 1 (HIGH) | Wait: 1342ms, Turnaround: 1398ms, Thread: Thread-2
+Processed Task 2 (HIGH) | Wait: 1342ms, Turnaround: 1398ms, Thread: Thread-1
+]]></system-out>
+  </testcase>
+</testsuite>
