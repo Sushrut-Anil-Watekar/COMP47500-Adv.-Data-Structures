@@ -50,16 +50,6 @@ Run the following command to build the project:
 mvn clean install
 ```
 
-### Running the Application
-To execute the **TaskSchedulerExperiment**, use:
-```sh
-mvn exec:java -Dexec.mainClass="com.taskscheduler.TaskSchedulerExperiment"
-```
-Alternatively, you can run it directly:
-```sh
-java -cp target/TaskSchedulerProject-1.0-SNAPSHOT.jar com.taskscheduler.TaskSchedulerExperiment
-```
-
 ### Running Tests
 To execute all unit tests:
 ```sh
