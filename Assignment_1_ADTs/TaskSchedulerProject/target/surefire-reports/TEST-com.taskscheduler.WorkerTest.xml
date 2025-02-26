@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.taskscheduler.WorkerTest" time="1.391" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.taskscheduler.WorkerTest" time="1.374" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IE"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\watek\AppData\Local\Temp\surefire16936219032480597659\surefirebooter-20250226132429884_3.jar C:\Users\watek\AppData\Local\Temp\surefire16936219032480597659 2025-02-26T13-24-29_756-jvmRun1 surefire-20250226132429884_1tmp surefire_0-20250226132429884_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\watek\AppData\Local\Temp\surefire13917596855937888570\surefirebooter-20250226133305519_3.jar C:\Users\watek\AppData\Local\Temp\surefire13917596855937888570 2025-02-26T13-33-05_353-jvmRun1 surefire-20250226133305519_1tmp surefire_0-20250226133305519_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\watek\Desktop\Assignment_1_ADTs\COMP47500-Adv.-Data-Structures-Assignment-1\Assignment_1_ADTs\TaskSchedulerProject\target\test-classes;C:\Users\watek\Desktop\Assignment_1_ADTs\COMP47500-Adv.-Data-Structures-Assignment-1\Assignment_1_ADTs\TaskSchedulerProject\target\classes;C:\Users\watek\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\watek\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\watek\AppData\Local\Temp\surefire16936219032480597659\surefirebooter-20250226132429884_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\watek\AppData\Local\Temp\surefire13917596855937888570\surefirebooter-20250226133305519_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -56,57 +56,57 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testWorkerProcessing" classname="com.taskscheduler.WorkerTest" time="1.391">
-    <system-out><![CDATA[Processed Task 49 (HIGH) | Wait: 0ms, Turnaround: 70ms, Thread: Thread-2
-Processed Task 50 (HIGH) | Wait: 0ms, Turnaround: 70ms, Thread: Thread-1
-Processed Task 48 (HIGH) | Wait: 70ms, Turnaround: 135ms, Thread: Thread-1
-Processed Task 47 (HIGH) | Wait: 70ms, Turnaround: 135ms, Thread: Thread-2
-Processed Task 46 (HIGH) | Wait: 135ms, Turnaround: 200ms, Thread: Thread-1
-Processed Task 45 (HIGH) | Wait: 135ms, Turnaround: 200ms, Thread: Thread-2
-Processed Task 43 (HIGH) | Wait: 200ms, Turnaround: 251ms, Thread: Thread-2
-Processed Task 44 (HIGH) | Wait: 200ms, Turnaround: 251ms, Thread: Thread-1
-Processed Task 41 (HIGH) | Wait: 251ms, Turnaround: 308ms, Thread: Thread-2
-Processed Task 42 (HIGH) | Wait: 251ms, Turnaround: 308ms, Thread: Thread-1
-Processed Task 40 (HIGH) | Wait: 308ms, Turnaround: 359ms, Thread: Thread-1
-Processed Task 39 (HIGH) | Wait: 308ms, Turnaround: 359ms, Thread: Thread-2
-Processed Task 37 (HIGH) | Wait: 359ms, Turnaround: 412ms, Thread: Thread-1
-Processed Task 38 (HIGH) | Wait: 359ms, Turnaround: 412ms, Thread: Thread-2
-Processed Task 36 (HIGH) | Wait: 412ms, Turnaround: 464ms, Thread: Thread-1
-Processed Task 35 (HIGH) | Wait: 412ms, Turnaround: 464ms, Thread: Thread-2
-Processed Task 33 (HIGH) | Wait: 464ms, Turnaround: 516ms, Thread: Thread-1
-Processed Task 34 (HIGH) | Wait: 464ms, Turnaround: 516ms, Thread: Thread-2
-Processed Task 32 (HIGH) | Wait: 516ms, Turnaround: 572ms, Thread: Thread-1
-Processed Task 31 (HIGH) | Wait: 516ms, Turnaround: 572ms, Thread: Thread-2
-Processed Task 29 (HIGH) | Wait: 572ms, Turnaround: 624ms, Thread: Thread-1
-Processed Task 30 (HIGH) | Wait: 572ms, Turnaround: 624ms, Thread: Thread-2
-Processed Task 28 (HIGH) | Wait: 624ms, Turnaround: 674ms, Thread: Thread-2
-Processed Task 27 (HIGH) | Wait: 624ms, Turnaround: 674ms, Thread: Thread-1
-Processed Task 25 (HIGH) | Wait: 674ms, Turnaround: 729ms, Thread: Thread-1
-Processed Task 26 (HIGH) | Wait: 674ms, Turnaround: 729ms, Thread: Thread-2
-Processed Task 24 (HIGH) | Wait: 729ms, Turnaround: 786ms, Thread: Thread-1
-Processed Task 23 (HIGH) | Wait: 729ms, Turnaround: 786ms, Thread: Thread-2
-Processed Task 21 (HIGH) | Wait: 786ms, Turnaround: 840ms, Thread: Thread-2
-Processed Task 22 (HIGH) | Wait: 786ms, Turnaround: 840ms, Thread: Thread-1
-Processed Task 19 (HIGH) | Wait: 840ms, Turnaround: 895ms, Thread: Thread-1
-Processed Task 20 (HIGH) | Wait: 840ms, Turnaround: 895ms, Thread: Thread-2
-Processed Task 18 (HIGH) | Wait: 895ms, Turnaround: 952ms, Thread: Thread-1
-Processed Task 17 (HIGH) | Wait: 895ms, Turnaround: 952ms, Thread: Thread-2
-Processed Task 15 (HIGH) | Wait: 952ms, Turnaround: 1007ms, Thread: Thread-1
-Processed Task 16 (HIGH) | Wait: 952ms, Turnaround: 1007ms, Thread: Thread-2
-Processed Task 14 (HIGH) | Wait: 1007ms, Turnaround: 1063ms, Thread: Thread-1
-Processed Task 13 (HIGH) | Wait: 1007ms, Turnaround: 1063ms, Thread: Thread-2
-Processed Task 11 (HIGH) | Wait: 1063ms, Turnaround: 1118ms, Thread: Thread-1
-Processed Task 12 (HIGH) | Wait: 1063ms, Turnaround: 1118ms, Thread: Thread-2
-Processed Task 9 (HIGH) | Wait: 1118ms, Turnaround: 1174ms, Thread: Thread-2
-Processed Task 10 (HIGH) | Wait: 1118ms, Turnaround: 1174ms, Thread: Thread-1
-Processed Task 7 (HIGH) | Wait: 1174ms, Turnaround: 1230ms, Thread: Thread-1
-Processed Task 8 (HIGH) | Wait: 1174ms, Turnaround: 1230ms, Thread: Thread-2
-Processed Task 5 (HIGH) | Wait: 1230ms, Turnaround: 1285ms, Thread: Thread-1
-Processed Task 6 (HIGH) | Wait: 1230ms, Turnaround: 1285ms, Thread: Thread-2
-Processed Task 4 (HIGH) | Wait: 1285ms, Turnaround: 1340ms, Thread: Thread-2
-Processed Task 3 (HIGH) | Wait: 1285ms, Turnaround: 1340ms, Thread: Thread-1
-Processed Task 1 (HIGH) | Wait: 1340ms, Turnaround: 1397ms, Thread: Thread-1
-Processed Task 2 (HIGH) | Wait: 1340ms, Turnaround: 1397ms, Thread: Thread-2
+  <testcase name="testWorkerProcessing" classname="com.taskscheduler.WorkerTest" time="1.374">
+    <system-out><![CDATA[Processed Task 50 (HIGH) | Wait: 1ms, Turnaround: 66ms, Thread: Thread-1
+Processed Task 49 (HIGH) | Wait: 1ms, Turnaround: 66ms, Thread: Thread-2
+Processed Task 47 (HIGH) | Wait: 66ms, Turnaround: 117ms, Thread: Thread-1
+Processed Task 48 (HIGH) | Wait: 66ms, Turnaround: 117ms, Thread: Thread-2
+Processed Task 46 (HIGH) | Wait: 117ms, Turnaround: 175ms, Thread: Thread-2
+Processed Task 45 (HIGH) | Wait: 117ms, Turnaround: 175ms, Thread: Thread-1
+Processed Task 44 (HIGH) | Wait: 175ms, Turnaround: 228ms, Thread: Thread-2
+Processed Task 43 (HIGH) | Wait: 175ms, Turnaround: 228ms, Thread: Thread-1
+Processed Task 42 (HIGH) | Wait: 228ms, Turnaround: 289ms, Thread: Thread-2
+Processed Task 41 (HIGH) | Wait: 228ms, Turnaround: 289ms, Thread: Thread-1
+Processed Task 40 (HIGH) | Wait: 289ms, Turnaround: 340ms, Thread: Thread-2
+Processed Task 39 (HIGH) | Wait: 289ms, Turnaround: 340ms, Thread: Thread-1
+Processed Task 37 (HIGH) | Wait: 340ms, Turnaround: 394ms, Thread: Thread-1
+Processed Task 38 (HIGH) | Wait: 340ms, Turnaround: 394ms, Thread: Thread-2
+Processed Task 35 (HIGH) | Wait: 394ms, Turnaround: 450ms, Thread: Thread-1
+Processed Task 36 (HIGH) | Wait: 394ms, Turnaround: 450ms, Thread: Thread-2
+Processed Task 33 (HIGH) | Wait: 450ms, Turnaround: 506ms, Thread: Thread-2
+Processed Task 34 (HIGH) | Wait: 450ms, Turnaround: 506ms, Thread: Thread-1
+Processed Task 32 (HIGH) | Wait: 506ms, Turnaround: 560ms, Thread: Thread-2
+Processed Task 31 (HIGH) | Wait: 506ms, Turnaround: 560ms, Thread: Thread-1
+Processed Task 30 (HIGH) | Wait: 560ms, Turnaround: 613ms, Thread: Thread-1
+Processed Task 29 (HIGH) | Wait: 560ms, Turnaround: 613ms, Thread: Thread-2
+Processed Task 28 (HIGH) | Wait: 613ms, Turnaround: 663ms, Thread: Thread-1
+Processed Task 27 (HIGH) | Wait: 613ms, Turnaround: 663ms, Thread: Thread-2
+Processed Task 25 (HIGH) | Wait: 663ms, Turnaround: 720ms, Thread: Thread-2
+Processed Task 26 (HIGH) | Wait: 663ms, Turnaround: 720ms, Thread: Thread-1
+Processed Task 24 (HIGH) | Wait: 720ms, Turnaround: 771ms, Thread: Thread-2
+Processed Task 23 (HIGH) | Wait: 720ms, Turnaround: 771ms, Thread: Thread-1
+Processed Task 21 (HIGH) | Wait: 771ms, Turnaround: 829ms, Thread: Thread-1
+Processed Task 22 (HIGH) | Wait: 771ms, Turnaround: 829ms, Thread: Thread-2
+Processed Task 19 (HIGH) | Wait: 829ms, Turnaround: 880ms, Thread: Thread-2
+Processed Task 20 (HIGH) | Wait: 829ms, Turnaround: 880ms, Thread: Thread-1
+Processed Task 18 (HIGH) | Wait: 880ms, Turnaround: 936ms, Thread: Thread-2
+Processed Task 17 (HIGH) | Wait: 880ms, Turnaround: 936ms, Thread: Thread-1
+Processed Task 15 (HIGH) | Wait: 936ms, Turnaround: 991ms, Thread: Thread-1
+Processed Task 16 (HIGH) | Wait: 936ms, Turnaround: 991ms, Thread: Thread-2
+Processed Task 13 (HIGH) | Wait: 991ms, Turnaround: 1057ms, Thread: Thread-1
+Processed Task 14 (HIGH) | Wait: 991ms, Turnaround: 1057ms, Thread: Thread-2
+Processed Task 11 (HIGH) | Wait: 1057ms, Turnaround: 1110ms, Thread: Thread-1
+Processed Task 12 (HIGH) | Wait: 1057ms, Turnaround: 1110ms, Thread: Thread-2
+Processed Task 10 (HIGH) | Wait: 1110ms, Turnaround: 1164ms, Thread: Thread-2
+Processed Task 9 (HIGH) | Wait: 1110ms, Turnaround: 1164ms, Thread: Thread-1
+Processed Task 7 (HIGH) | Wait: 1164ms, Turnaround: 1219ms, Thread: Thread-1
+Processed Task 8 (HIGH) | Wait: 1164ms, Turnaround: 1219ms, Thread: Thread-2
+Processed Task 6 (HIGH) | Wait: 1219ms, Turnaround: 1272ms, Thread: Thread-1
+Processed Task 5 (HIGH) | Wait: 1219ms, Turnaround: 1272ms, Thread: Thread-2
+Processed Task 3 (HIGH) | Wait: 1272ms, Turnaround: 1326ms, Thread: Thread-2
+Processed Task 4 (HIGH) | Wait: 1272ms, Turnaround: 1326ms, Thread: Thread-1
+Processed Task 2 (HIGH) | Wait: 1326ms, Turnaround: 1380ms, Thread: Thread-2
+Processed Task 1 (HIGH) | Wait: 1326ms, Turnaround: 1380ms, Thread: Thread-1
 ]]></system-out>
   </testcase>
 </testsuite>

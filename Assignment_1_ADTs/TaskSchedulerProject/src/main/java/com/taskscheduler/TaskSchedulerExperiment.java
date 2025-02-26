@@ -11,7 +11,7 @@ import java.util.concurrent.*;
 public class TaskSchedulerExperiment {
 
     public static void main(String[] args) {
-        int totalRuns = 5; // or 100, or however many runs you want
+        int totalRuns = 50; // or 100, or however many runs you want
 
         // Ensure our "output" folder exists
         File outputDir = new File("output");
